@@ -1,0 +1,336 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"f",
+				"fun	function …"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"gitcomm",
+				"Git: Commit"
+			],
+			[
+				"gitcom",
+				"Set Syntax: Git Commit Message"
+			],
+			[
+				"ali",
+				"Preferences: Alignment File Settings – Syntax Specific – User"
+			],
+			[
+				"alignment",
+				"Preferences: Alignment File Settings – User"
+			],
+			[
+				"git",
+				"Git: Custom Command"
+			],
+			[
+				"git:comm",
+				"Git: Amend Commit"
+			],
+			[
+				"gitco",
+				"Git: Commit"
+			],
+			[
+				"git:add",
+				"Git: Add Current File"
+			],
+			[
+				"goto",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"gitl",
+				"Git: Log All"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"ls",
+			"cd ..",
+			"choe",
+			"echo",
+			"dd"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/liufei/ROR/patient"
+	],
+	"file_history":
+	[
+		"/Library/WebServer/Documents/weixinpro/weiwincms/Lib/Action/Wap/WeixinAction.class.php",
+		"/Library/WebServer/Documents/weixinpro/tpl/Wap/default/common/css/1143/cate.css",
+		"/Library/WebServer/Documents/weixinpro/tpl/Wap/default/Card_index_newsalon.html",
+		"/Library/WebServer/Documents/weixinpro/tpl/Wap/default/Index_1143.html",
+		"/Library/WebServer/Documents/weixinpro/index.php",
+		"/Library/WebServer/Documents/weixinpro/tpl/Wap/default/common/css/dc/index_new.css",
+		"/Library/WebServer/Documents/weixinpro/cms/editor/ckeditor/plugins/image/dialogs/image_new.js",
+		"/Library/WebServer/Documents/weixinpro/weiwincms/Lib/ORG/index.Tpl.php",
+		"/Library/WebServer/Documents/weixinpro/tpl/Wap/default/Index_1102_index_cvb5u.html",
+		"/Library/WebServer/Documents/weixinpro/tpl/Wap/default/Photo_plist_newsalon_2.html",
+		"/Library/WebServer/Documents/weixinpro/tpl/Wap/default/Photo_plist_newsalon_1.html",
+		"/Library/WebServer/Documents/weixinpro/weiwincms/Lib/Action/Wap/CardAction.class.php",
+		"/Library/WebServer/Documents/weixinpro/tpl/static/tpl/186/css/cate.css",
+		"/Library/WebServer/Documents/weixinpro/tpl/Wap/default/Index_301.html",
+		"/Library/WebServer/Documents/weixinpro/weiwincms/Lib/Action/Wap/PhotoAction.class.php",
+		"/Library/WebServer/Documents/weixinpro/tpl/Wap/default/Index_104_index.html",
+		"/Library/WebServer/Documents/weixinpro/tpl/Wap/default/Index_300.html",
+		"/Library/WebServer/Documents/weixinpro/tpl/Home/weiwincms/Public_header.html",
+		"/Library/WebServer/Documents/weixinpro/phpinfo.php",
+		"/Library/WebServer/Documents/weixinpro/weiwindata/logs/Cache/Wap/104809d5ee4c7735f0d9e1ec737c63c2.php",
+		"/Library/WebServer/Documents/weixinpro/weiwindata/logs/Logs/14_07_01.log",
+		"/Library/WebServer/Documents/weixinpro/cms/templates/history/1_20131007191944.html",
+		"/Library/WebServer/Documents/weixinpro/asyncbox/jQuery.v1.4.2.js",
+		"/Library/WebServer/Documents/weixinpro/install/lock",
+		"/Library/WebServer/Documents/weixinpro/tpl/Chat/default/Login_index.html",
+		"/Library/WebServer/Documents/weixinpro/cms/manage/modules/update/updateFile/list.php",
+		"/Library/WebServer/Documents/weixinpro/tpl/Home/weiwincms/Index_login.html",
+		"/Library/WebServer/Documents/weixinpro/tpl/Wap/default/Index_1140.html",
+		"/Library/WebServer/Documents/weixinpro/tpl/Wap/default/Index_1124.html",
+		"/Library/WebServer/Documents/weixinpro/tpl/Chat/default/Index_index.html",
+		"/Library/WebServer/Documents/weixinpro/tpl/Wap/default/Index_122_index_pgj9d.html",
+		"/Library/WebServer/Documents/weixinpro/tpl/static/tpl/1143/cate.css",
+		"/Library/WebServer/Documents/weixinpro/weiwincms/Lib/Action/Admin/User_groupAction.class.php",
+		"/Library/WebServer/Documents/weixinpro/weiwindata/conf/db.php",
+		"/Library/WebServer/Documents/weixinpro/tpl/Wap/default/common/css/allcss/300_css.css",
+		"/Library/WebServer/Documents/weixinpro/weiwincms/Lib/Action/BackAction.class.php",
+		"/Users/liufei/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/liufei/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/liufei/Library/Application Support/Sublime Text 3/Packages/User/PHP.sublime-settings",
+		"/Users/liufei/Library/Application Support/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/Users/liufei/Library/Application Support/Sublime Text 3/Packages/Terminal/Base File.sublime-settings",
+		"/Library/WebServer/Documents/weixinpro/weiwindata/logs/Cache/Wap/300997136e4d6ae09828c036d21aca40.php",
+		"/Library/WebServer/Documents/weixinpro/weiwindata/logs/Cache/User/301b687f5b452f5129c78c49981401e2.php",
+		"/Library/WebServer/Documents/weixinpro/cms/templates/history/3_20131210214411.html",
+		"/Library/WebServer/Documents/weixinpro/install/sql/data.sql",
+		"/Library/WebServer/Documents/weixinpro/tpl/System/common/js/DD_belatedPNG.js",
+		"/Library/WebServer/Documents/weixinpro/weiwincms/_Core/Extend/Vendor/Excel/PHPExcel/CachedObjectStorage/PHPTemp.php",
+		"/Library/WebServer/Documents/weixinpro/cms/smarty/templates/tpls/v13/product.php-tid=3&pageno=1.htm",
+		"/Library/WebServer/Documents/weixinpro/tpl/static/ueditor/third-party/highcharts/modules/no-data-to-display.js",
+		"/Library/WebServer/Documents/weixinpro/tpl/User/default/Tmpls_index.html",
+		"/Library/WebServer/Documents/weixinpro/cms/manage/model/template_model.class.php",
+		"/Library/WebServer/Documents/weixinpro/tpl/think_exception.tpl",
+		"/Users/liufei/Desktop/<?php",
+		"/Users/liufei/Downloads/emmet-sublime-master/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"雪山",
+			"<script type=\"text/javascript\">\n            var myScroll;\n\n            function loaded() {\n                myScroll = new iScroll('wrapper', {\n                    snap: true,\n                    momentum: false,\n                    hScrollbar: false,\n                    onScrollEnd: function () {\n                        document.querySelector('#indicator > li.active').className = '';\n                        document.querySelector('#indicator > li:nth-child(' + (this.currPageX+1) + ')').className = 'active';\n                    }\n                });\n \n            }\n\n            document.addEventListener('DOMContentLoaded', loaded, false);\n        </script>",
+			"            </",
+			"1280",
+			"swiper-slide swiper-slide-visible swiper-slide-active",
+			" swiper-slide-visible",
+			"swiper-slide-visible",
+			"\n        ",
+			"        \n",
+			"memer",
+			"user",
+			", "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"project": "patient.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"index_1143",
+				"tpl/Wap/default/Index_1143.html"
+			],
+			[
+				"index_new",
+				"tpl/Wap/default/Card_index_newsalon.html"
+			],
+			[
+				"photo",
+				"weiwincms/Lib/Action/Wap/PhotoAction.class.php"
+			],
+			[
+				"104",
+				"tpl/Wap/default/Index_104_index.html"
+			],
+			[
+				"index.tpl.php",
+				"weiwincms/Lib/ORG/index.Tpl.php"
+			],
+			[
+				"300",
+				"tpl/Wap/default/Index_300.html"
+			],
+			[
+				"d",
+				"weiwindata/conf/db.php"
+			],
+			[
+				"lib/org/index.tpl.php",
+				"weiwincms/Lib/ORG/index.Tpl.php"
+			],
+			[
+				"tmpl",
+				"weiwincms/Lib/Action/User/TmplsAction.class.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 359.0,
+		"selected_items":
+		[
+		],
+		"width": 384.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
