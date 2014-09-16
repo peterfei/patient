@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ima",
+				"image_path"
+			],
+			[
 				"f",
 				"fun	function …"
 			]
@@ -11,6 +15,181 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1640,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Patient</title>\n  <%= stylesheet_link_tag    'bootstrap.min.css' %>\n  <%= stylesheet_link_tag    'bootstrap-responsive.min.css' %>\n  <%= stylesheet_link_tag    'font-awesome.min.css' %>\n  <%= stylesheet_link_tag    'style-metro.css' %>\n  <%= stylesheet_link_tag    'style.css' %>\n  <%= stylesheet_link_tag    'style-responsive.css' %>\n  <%= stylesheet_link_tag    'default.css' %>\n  <%= stylesheet_link_tag    'uniform.default.css' %>\n  <%= stylesheet_link_tag    'login.css' %>\n\n  	<%= javascript_include_tag 'jquery-1.10.1.min.js' %>\n  	<%= javascript_include_tag 'jquery-migrate-1.2.1.min.js' %>\n  	<%= javascript_include_tag 'jquery-ui-1.10.1.custom.min.js' %>\n  	<%= javascript_include_tag 'bootstrap.min.js' %>\n  	<%= javascript_include_tag 'jquery.slimscroll.min.js' %>\n  	<%= javascript_include_tag 'jquery.blockui.min.js' %>\n  	<%= javascript_include_tag 'jquery.cookie.min.js' %>\n  	<%= javascript_include_tag 'jquery.uniform.min.js' %>\n  	<%= javascript_include_tag 'jquery.validate.min.js' %>\n  	<%= javascript_include_tag 'app.js' %>\n  	<%= javascript_include_tag 'login.js' %>\n	\n	\n\n\n  <%= csrf_meta_tags %>\n</head>\n<body>\n\n<%= yield %>\n\n</body>\n</html>\n",
+			"file": "app/views/layouts/application.html.erb",
+			"file_size": 2490,
+			"file_write_time": 130552447960000000,
+			"settings":
+			{
+				"buffer_size": 1206,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/home/index.html.slim",
+			"settings":
+			{
+				"buffer_size": 4096,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/font-awesome.min.css",
+			"settings":
+			{
+				"buffer_size": 21918,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/*!\n *\n *  Project:  GLYPHICONS\n *  Author:   Jan Kovarik - www.glyphicons.com\n *  Twitter:  @jankovarik\n *\n */\nhtml,\nhtml .halflings {\n  -webkit-font-smoothing: antialiased !important;\n}\n@font-face {\n  font-family: 'Glyphicons';\n  src: url('assets/glyphicons-regular.eot');\n  src: url('assets/glyphicons-regular.eot') format('embedded-opentype'), url('assets/glyphicons-regular.woff') format('woff'), url('assets/glyphicons-regular.ttf') format('truetype'), url('assets/glyphicons-regular.svg#glyphicons_halflingsregular') format('svg');\n  font-weight: normal;\n  font-style: normal;\n}\n.glyphicons {\n  display: inline-block;\n  position: relative;\n  padding: 5px 0 5px 35px;\n  color: #1d1d1b;\n  text-decoration: none;\n  *display: inline;\n  *zoom: 1;\n}\n.glyphicons i:before {\n  position: absolute;\n  left: 0;\n  top: 0;\n  font: 24px/1em 'Glyphicons';\n  font-style: normal;\n  color: #1d1d1b;\n}\n.glyphicons.white i:before {\n  color: #fff;\n}\n.glyphicons.glass i:before {\n  content: \"\\e001\";\n}\n.glyphicons.leaf i:before {\n  content: \"\\e002\";\n}\n.glyphicons.dog i:before {\n  content: \"\\e003\";\n}\n.glyphicons.user i:before {\n  content: \"\\e004\";\n}\n.glyphicons.girl i:before {\n  content: \"\\e005\";\n}\n.glyphicons.car i:before {\n  content: \"\\e006\";\n}\n.glyphicons.user_add i:before {\n  content: \"\\e007\";\n}\n.glyphicons.user_remove i:before {\n  content: \"\\e008\";\n}\n.glyphicons.film i:before {\n  content: \"\\e009\";\n}\n.glyphicons.magic i:before {\n  content: \"\\e010\";\n}\n.glyphicons.envelope i:before {\n  content: \"\\2709\";\n}\n.glyphicons.camera i:before {\n  content: \"\\e012\";\n}\n.glyphicons.heart i:before {\n  content: \"\\e013\";\n}\n.glyphicons.beach_umbrella i:before {\n  content: \"\\e014\";\n}\n.glyphicons.train i:before {\n  content: \"\\e015\";\n}\n.glyphicons.print i:before {\n  content: \"\\e016\";\n}\n.glyphicons.bin i:before {\n  content: \"\\e017\";\n}\n.glyphicons.music i:before {\n  content: \"\\e018\";\n}\n.glyphicons.note i:before {\n  content: \"\\e019\";\n}\n.glyphicons.heart_empty i:before {\n  content: \"\\e020\";\n}\n.glyphicons.home i:before {\n  content: \"\\e021\";\n}\n.glyphicons.snowflake i:before {\n  content: \"\\2744\";\n}\n.glyphicons.fire i:before {\n  content: \"\\e023\";\n}\n.glyphicons.magnet i:before {\n  content: \"\\e024\";\n}\n.glyphicons.parents i:before {\n  content: \"\\e025\";\n}\n.glyphicons.binoculars i:before {\n  content: \"\\e026\";\n}\n.glyphicons.road i:before {\n  content: \"\\e027\";\n}\n.glyphicons.search i:before {\n  content: \"\\e028\";\n}\n.glyphicons.cars i:before {\n  content: \"\\e029\";\n}\n.glyphicons.notes_2 i:before {\n  content: \"\\e030\";\n}\n.glyphicons.pencil i:before {\n  content: \"\\270F\";\n}\n.glyphicons.bus i:before {\n  content: \"\\e032\";\n}\n.glyphicons.wifi_alt i:before {\n  content: \"\\e033\";\n}\n.glyphicons.luggage i:before {\n  content: \"\\e034\";\n}\n.glyphicons.old_man i:before {\n  content: \"\\e035\";\n}\n.glyphicons.woman i:before {\n  content: \"\\e036\";\n}\n.glyphicons.file i:before {\n  content: \"\\e037\";\n}\n.glyphicons.coins i:before {\n  content: \"\\e038\";\n}\n.glyphicons.airplane i:before {\n  content: \"\\2708\";\n}\n.glyphicons.notes i:before {\n  content: \"\\e040\";\n}\n.glyphicons.stats i:before {\n  content: \"\\e041\";\n}\n.glyphicons.charts i:before {\n  content: \"\\e042\";\n}\n.glyphicons.pie_chart i:before {\n  content: \"\\e043\";\n}\n.glyphicons.group i:before {\n  content: \"\\e044\";\n}\n.glyphicons.keys i:before {\n  content: \"\\e045\";\n}\n.glyphicons.calendar i:before {\n  content: \"\\e046\";\n}\n.glyphicons.router i:before {\n  content: \"\\e047\";\n}\n.glyphicons.camera_small i:before {\n  content: \"\\e048\";\n}\n.glyphicons.dislikes i:before {\n  content: \"\\e049\";\n}\n.glyphicons.star i:before {\n  content: \"\\e050\";\n}\n.glyphicons.link i:before {\n  content: \"\\e051\";\n}\n.glyphicons.eye_open i:before {\n  content: \"\\e052\";\n}\n.glyphicons.eye_close i:before {\n  content: \"\\e053\";\n}\n.glyphicons.alarm i:before {\n  content: \"\\e054\";\n}\n.glyphicons.clock i:before {\n  content: \"\\e055\";\n}\n.glyphicons.stopwatch i:before {\n  content: \"\\e056\";\n}\n.glyphicons.projector i:before {\n  content: \"\\e057\";\n}\n.glyphicons.history i:before {\n  content: \"\\e058\";\n}\n.glyphicons.truck i:before {\n  content: \"\\e059\";\n}\n.glyphicons.cargo i:before {\n  content: \"\\e060\";\n}\n.glyphicons.compass i:before {\n  content: \"\\e061\";\n}\n.glyphicons.keynote i:before {\n  content: \"\\e062\";\n}\n.glyphicons.paperclip i:before {\n  content: \"\\e063\";\n}\n.glyphicons.power i:before {\n  content: \"\\e064\";\n}\n.glyphicons.lightbulb i:before {\n  content: \"\\e065\";\n}\n.glyphicons.tag i:before {\n  content: \"\\e066\";\n}\n.glyphicons.tags i:before {\n  content: \"\\e067\";\n}\n.glyphicons.cleaning i:before {\n  content: \"\\e068\";\n}\n.glyphicons.ruller i:before {\n  content: \"\\e069\";\n}\n.glyphicons.gift i:before {\n  content: \"\\e070\";\n}\n.glyphicons.umbrella i:before {\n  content: \"\\2602\";\n}\n.glyphicons.book i:before {\n  content: \"\\e072\";\n}\n.glyphicons.bookmark i:before {\n  content: \"\\e073\";\n}\n.glyphicons.wifi i:before {\n  content: \"\\e074\";\n}\n.glyphicons.cup i:before {\n  content: \"\\e075\";\n}\n.glyphicons.stroller i:before {\n  content: \"\\e076\";\n}\n.glyphicons.headphones i:before {\n  content: \"\\e077\";\n}\n.glyphicons.headset i:before {\n  content: \"\\e078\";\n}\n.glyphicons.warning_sign i:before {\n  content: \"\\e079\";\n}\n.glyphicons.signal i:before {\n  content: \"\\e080\";\n}\n.glyphicons.retweet i:before {\n  content: \"\\e081\";\n}\n.glyphicons.refresh i:before {\n  content: \"\\e082\";\n}\n.glyphicons.roundabout i:before {\n  content: \"\\e083\";\n}\n.glyphicons.random i:before {\n  content: \"\\e084\";\n}\n.glyphicons.heat i:before {\n  content: \"\\e085\";\n}\n.glyphicons.repeat i:before {\n  content: \"\\e086\";\n}\n.glyphicons.display i:before {\n  content: \"\\e087\";\n}\n.glyphicons.log_book i:before {\n  content: \"\\e088\";\n}\n.glyphicons.adress_book i:before {\n  content: \"\\e089\";\n}\n.glyphicons.building i:before {\n  content: \"\\e090\";\n}\n.glyphicons.eyedropper i:before {\n  content: \"\\e091\";\n}\n.glyphicons.adjust i:before {\n  content: \"\\e092\";\n}\n.glyphicons.tint i:before {\n  content: \"\\e093\";\n}\n.glyphicons.crop i:before {\n  content: \"\\e094\";\n}\n.glyphicons.vector_path_square i:before {\n  content: \"\\e095\";\n}\n.glyphicons.vector_path_circle i:before {\n  content: \"\\e096\";\n}\n.glyphicons.vector_path_polygon i:before {\n  content: \"\\e097\";\n}\n.glyphicons.vector_path_line i:before {\n  content: \"\\e098\";\n}\n.glyphicons.vector_path_curve i:before {\n  content: \"\\e099\";\n}\n.glyphicons.vector_path_all i:before {\n  content: \"\\e100\";\n}\n.glyphicons.font i:before {\n  content: \"\\e101\";\n}\n.glyphicons.italic i:before {\n  content: \"\\e102\";\n}\n.glyphicons.bold i:before {\n  content: \"\\e103\";\n}\n.glyphicons.text_underline i:before {\n  content: \"\\e104\";\n}\n.glyphicons.text_strike i:before {\n  content: \"\\e105\";\n}\n.glyphicons.text_height i:before {\n  content: \"\\e106\";\n}\n.glyphicons.text_width i:before {\n  content: \"\\e107\";\n}\n.glyphicons.text_resize i:before {\n  content: \"\\e108\";\n}\n.glyphicons.left_indent i:before {\n  content: \"\\e109\";\n}\n.glyphicons.right_indent i:before {\n  content: \"\\e110\";\n}\n.glyphicons.align_left i:before {\n  content: \"\\e111\";\n}\n.glyphicons.align_center i:before {\n  content: \"\\e112\";\n}\n.glyphicons.align_right i:before {\n  content: \"\\e113\";\n}\n.glyphicons.justify i:before {\n  content: \"\\e114\";\n}\n.glyphicons.list i:before {\n  content: \"\\e115\";\n}\n.glyphicons.text_smaller i:before {\n  content: \"\\e116\";\n}\n.glyphicons.text_bigger i:before {\n  content: \"\\e117\";\n}\n.glyphicons.embed i:before {\n  content: \"\\e118\";\n}\n.glyphicons.embed_close i:before {\n  content: \"\\e119\";\n}\n.glyphicons.table i:before {\n  content: \"\\e120\";\n}\n.glyphicons.message_full i:before {\n  content: \"\\e121\";\n}\n.glyphicons.message_empty i:before {\n  content: \"\\e122\";\n}\n.glyphicons.message_in i:before {\n  content: \"\\e123\";\n}\n.glyphicons.message_out i:before {\n  content: \"\\e124\";\n}\n.glyphicons.message_plus i:before {\n  content: \"\\e125\";\n}\n.glyphicons.message_minus i:before {\n  content: \"\\e126\";\n}\n.glyphicons.message_ban i:before {\n  content: \"\\e127\";\n}\n.glyphicons.message_flag i:before {\n  content: \"\\e128\";\n}\n.glyphicons.message_lock i:before {\n  content: \"\\e129\";\n}\n.glyphicons.message_new i:before {\n  content: \"\\e130\";\n}\n.glyphicons.inbox i:before {\n  content: \"\\e131\";\n}\n.glyphicons.inbox_plus i:before {\n  content: \"\\e132\";\n}\n.glyphicons.inbox_minus i:before {\n  content: \"\\e133\";\n}\n.glyphicons.inbox_lock i:before {\n  content: \"\\e134\";\n}\n.glyphicons.inbox_in i:before {\n  content: \"\\e135\";\n}\n.glyphicons.inbox_out i:before {\n  content: \"\\e136\";\n}\n.glyphicons.cogwheel i:before {\n  content: \"\\e137\";\n}\n.glyphicons.cogwheels i:before {\n  content: \"\\e138\";\n}\n.glyphicons.picture i:before {\n  content: \"\\e139\";\n}\n.glyphicons.adjust_alt i:before {\n  content: \"\\e140\";\n}\n.glyphicons.database_lock i:before {\n  content: \"\\e141\";\n}\n.glyphicons.database_plus i:before {\n  content: \"\\e142\";\n}\n.glyphicons.database_minus i:before {\n  content: \"\\e143\";\n}\n.glyphicons.database_ban i:before {\n  content: \"\\e144\";\n}\n.glyphicons.folder_open i:before {\n  content: \"\\e145\";\n}\n.glyphicons.folder_plus i:before {\n  content: \"\\e146\";\n}\n.glyphicons.folder_minus i:before {\n  content: \"\\e147\";\n}\n.glyphicons.folder_lock i:before {\n  content: \"\\e148\";\n}\n.glyphicons.folder_flag i:before {\n  content: \"\\e149\";\n}\n.glyphicons.folder_new i:before {\n  content: \"\\e150\";\n}\n.glyphicons.edit i:before {\n  content: \"\\e151\";\n}\n.glyphicons.new_window i:before {\n  content: \"\\e152\";\n}\n.glyphicons.check i:before {\n  content: \"\\e153\";\n}\n.glyphicons.unchecked i:before {\n  content: \"\\e154\";\n}\n.glyphicons.more_windows i:before {\n  content: \"\\e155\";\n}\n.glyphicons.show_big_thumbnails i:before {\n  content: \"\\e156\";\n}\n.glyphicons.show_thumbnails i:before {\n  content: \"\\e157\";\n}\n.glyphicons.show_thumbnails_with_lines i:before {\n  content: \"\\e158\";\n}\n.glyphicons.show_lines i:before {\n  content: \"\\e159\";\n}\n.glyphicons.playlist i:before {\n  content: \"\\e160\";\n}\n.glyphicons.imac i:before {\n  content: \"\\e161\";\n}\n.glyphicons.macbook i:before {\n  content: \"\\e162\";\n}\n.glyphicons.ipad i:before {\n  content: \"\\e163\";\n}\n.glyphicons.iphone i:before {\n  content: \"\\e164\";\n}\n.glyphicons.iphone_transfer i:before {\n  content: \"\\e165\";\n}\n.glyphicons.iphone_exchange i:before {\n  content: \"\\e166\";\n}\n.glyphicons.ipod i:before {\n  content: \"\\e167\";\n}\n.glyphicons.ipod_shuffle i:before {\n  content: \"\\e168\";\n}\n.glyphicons.ear_plugs i:before {\n  content: \"\\e169\";\n}\n.glyphicons.phone i:before {\n  content: \"\\e170\";\n}\n.glyphicons.step_backward i:before {\n  content: \"\\e171\";\n}\n.glyphicons.fast_backward i:before {\n  content: \"\\e172\";\n}\n.glyphicons.rewind i:before {\n  content: \"\\e173\";\n}\n.glyphicons.play i:before {\n  content: \"\\e174\";\n}\n.glyphicons.pause i:before {\n  content: \"\\e175\";\n}\n.glyphicons.stop i:before {\n  content: \"\\e176\";\n}\n.glyphicons.forward i:before {\n  content: \"\\e177\";\n}\n.glyphicons.fast_forward i:before {\n  content: \"\\e178\";\n}\n.glyphicons.step_forward i:before {\n  content: \"\\e179\";\n}\n.glyphicons.eject i:before {\n  content: \"\\e180\";\n}\n.glyphicons.facetime_video i:before {\n  content: \"\\e181\";\n}\n.glyphicons.download_alt i:before {\n  content: \"\\e182\";\n}\n.glyphicons.mute i:before {\n  content: \"\\e183\";\n}\n.glyphicons.volume_down i:before {\n  content: \"\\e184\";\n}\n.glyphicons.volume_up i:before {\n  content: \"\\e185\";\n}\n.glyphicons.screenshot i:before {\n  content: \"\\e186\";\n}\n.glyphicons.move i:before {\n  content: \"\\e187\";\n}\n.glyphicons.more i:before {\n  content: \"\\e188\";\n}\n.glyphicons.brightness_reduce i:before {\n  content: \"\\e189\";\n}\n.glyphicons.brightness_increase i:before {\n  content: \"\\e190\";\n}\n.glyphicons.circle_plus i:before {\n  content: \"\\e191\";\n}\n.glyphicons.circle_minus i:before {\n  content: \"\\e192\";\n}\n.glyphicons.circle_remove i:before {\n  content: \"\\e193\";\n}\n.glyphicons.circle_ok i:before {\n  content: \"\\e194\";\n}\n.glyphicons.circle_question_mark i:before {\n  content: \"\\e195\";\n}\n.glyphicons.circle_info i:before {\n  content: \"\\e196\";\n}\n.glyphicons.circle_exclamation_mark i:before {\n  content: \"\\e197\";\n}\n.glyphicons.remove i:before {\n  content: \"\\e198\";\n}\n.glyphicons.ok i:before {\n  content: \"\\e199\";\n}\n.glyphicons.ban i:before {\n  content: \"\\e200\";\n}\n.glyphicons.download i:before {\n  content: \"\\e201\";\n}\n.glyphicons.upload i:before {\n  content: \"\\e202\";\n}\n.glyphicons.shopping_cart i:before {\n  content: \"\\e203\";\n}\n.glyphicons.lock i:before {\n  content: \"\\e204\";\n}\n.glyphicons.unlock i:before {\n  content: \"\\e205\";\n}\n.glyphicons.electricity i:before {\n  content: \"\\e206\";\n}\n.glyphicons.ok_2 i:before {\n  content: \"\\e207\";\n}\n.glyphicons.remove_2 i:before {\n  content: \"\\e208\";\n}\n.glyphicons.cart_out i:before {\n  content: \"\\e209\";\n}\n.glyphicons.cart_in i:before {\n  content: \"\\e210\";\n}\n.glyphicons.left_arrow i:before {\n  content: \"\\e211\";\n}\n.glyphicons.right_arrow i:before {\n  content: \"\\e212\";\n}\n.glyphicons.down_arrow i:before {\n  content: \"\\e213\";\n}\n.glyphicons.up_arrow i:before {\n  content: \"\\e214\";\n}\n.glyphicons.resize_small i:before {\n  content: \"\\e215\";\n}\n.glyphicons.resize_full i:before {\n  content: \"\\e216\";\n}\n.glyphicons.circle_arrow_left i:before {\n  content: \"\\e217\";\n}\n.glyphicons.circle_arrow_right i:before {\n  content: \"\\e218\";\n}\n.glyphicons.circle_arrow_top i:before {\n  content: \"\\e219\";\n}\n.glyphicons.circle_arrow_down i:before {\n  content: \"\\e220\";\n}\n.glyphicons.play_button i:before {\n  content: \"\\e221\";\n}\n.glyphicons.unshare i:before {\n  content: \"\\e222\";\n}\n.glyphicons.share i:before {\n  content: \"\\e223\";\n}\n.glyphicons.chevron-right i:before {\n  content: \"\\e224\";\n}\n.glyphicons.chevron-left i:before {\n  content: \"\\e225\";\n}\n.glyphicons.bluetooth i:before {\n  content: \"\\e226\";\n}\n.glyphicons.euro i:before {\n  content: \"\\20AC\";\n}\n.glyphicons.usd i:before {\n  content: \"\\e228\";\n}\n.glyphicons.gbp i:before {\n  content: \"\\e229\";\n}\n.glyphicons.retweet_2 i:before {\n  content: \"\\e230\";\n}\n.glyphicons.moon i:before {\n  content: \"\\e231\";\n}\n.glyphicons.sun i:before {\n  content: \"\\2609\";\n}\n.glyphicons.cloud i:before {\n  content: \"\\2601\";\n}\n.glyphicons.direction i:before {\n  content: \"\\e234\";\n}\n.glyphicons.brush i:before {\n  content: \"\\e235\";\n}\n.glyphicons.pen i:before {\n  content: \"\\e236\";\n}\n.glyphicons.zoom_in i:before {\n  content: \"\\e237\";\n}\n.glyphicons.zoom_out i:before {\n  content: \"\\e238\";\n}\n.glyphicons.pin i:before {\n  content: \"\\e239\";\n}\n.glyphicons.albums i:before {\n  content: \"\\e240\";\n}\n.glyphicons.rotation_lock i:before {\n  content: \"\\e241\";\n}\n.glyphicons.flash i:before {\n  content: \"\\e242\";\n}\n.glyphicons.google_maps i:before {\n  content: \"\\e243\";\n}\n.glyphicons.anchor i:before {\n  content: \"\\2693\";\n}\n.glyphicons.conversation i:before {\n  content: \"\\e245\";\n}\n.glyphicons.chat i:before {\n  content: \"\\e246\";\n}\n.glyphicons.male i:before {\n  content: \"\\e247\";\n}\n.glyphicons.female i:before {\n  content: \"\\e248\";\n}\n.glyphicons.asterisk i:before {\n  content: \"\\002A\";\n}\n.glyphicons.divide i:before {\n  content: \"\\00F7\";\n}\n.glyphicons.snorkel_diving i:before {\n  content: \"\\e251\";\n}\n.glyphicons.scuba_diving i:before {\n  content: \"\\e252\";\n}\n.glyphicons.oxygen_bottle i:before {\n  content: \"\\e253\";\n}\n.glyphicons.fins i:before {\n  content: \"\\e254\";\n}\n.glyphicons.fishes i:before {\n  content: \"\\e255\";\n}\n.glyphicons.boat i:before {\n  content: \"\\e256\";\n}\n.glyphicons.delete i:before {\n  content: \"\\e257\";\n}\n.glyphicons.sheriffs_star i:before {\n  content: \"\\e258\";\n}\n.glyphicons.qrcode i:before {\n  content: \"\\e259\";\n}\n.glyphicons.barcode i:before {\n  content: \"\\e260\";\n}\n.glyphicons.pool i:before {\n  content: \"\\e261\";\n}\n.glyphicons.buoy i:before {\n  content: \"\\e262\";\n}\n.glyphicons.spade i:before {\n  content: \"\\e263\";\n}\n.glyphicons.bank i:before {\n  content: \"\\e264\";\n}\n.glyphicons.vcard i:before {\n  content: \"\\e265\";\n}\n.glyphicons.electrical_plug i:before {\n  content: \"\\e266\";\n}\n.glyphicons.flag i:before {\n  content: \"\\e267\";\n}\n.glyphicons.credit_card i:before {\n  content: \"\\e268\";\n}\n.glyphicons.keyboard-wireless i:before {\n  content: \"\\e269\";\n}\n.glyphicons.keyboard-wired i:before {\n  content: \"\\e270\";\n}\n.glyphicons.shield i:before {\n  content: \"\\e271\";\n}\n.glyphicons.ring i:before {\n  content: \"\\02DA\";\n}\n.glyphicons.cake i:before {\n  content: \"\\e273\";\n}\n.glyphicons.drink i:before {\n  content: \"\\e274\";\n}\n.glyphicons.beer i:before {\n  content: \"\\e275\";\n}\n.glyphicons.fast_food i:before {\n  content: \"\\e276\";\n}\n.glyphicons.cutlery i:before {\n  content: \"\\e277\";\n}\n.glyphicons.pizza i:before {\n  content: \"\\e278\";\n}\n.glyphicons.birthday_cake i:before {\n  content: \"\\e279\";\n}\n.glyphicons.tablet i:before {\n  content: \"\\e280\";\n}\n.glyphicons.settings i:before {\n  content: \"\\e281\";\n}\n.glyphicons.bullets i:before {\n  content: \"\\e282\";\n}\n.glyphicons.cardio i:before {\n  content: \"\\e283\";\n}\n.glyphicons.t-shirt i:before {\n  content: \"\\e284\";\n}\n.glyphicons.pants i:before {\n  content: \"\\e285\";\n}\n.glyphicons.sweater i:before {\n  content: \"\\e286\";\n}\n.glyphicons.fabric i:before {\n  content: \"\\e287\";\n}\n.glyphicons.leather i:before {\n  content: \"\\e288\";\n}\n.glyphicons.scissors i:before {\n  content: \"\\e289\";\n}\n.glyphicons.bomb i:before {\n  content: \"\\e290\";\n}\n.glyphicons.skull i:before {\n  content: \"\\e291\";\n}\n.glyphicons.celebration i:before {\n  content: \"\\e292\";\n}\n.glyphicons.tea_kettle i:before {\n  content: \"\\e293\";\n}\n.glyphicons.french_press i:before {\n  content: \"\\e294\";\n}\n.glyphicons.coffe_cup i:before {\n  content: \"\\e295\";\n}\n.glyphicons.pot i:before {\n  content: \"\\e296\";\n}\n.glyphicons.grater i:before {\n  content: \"\\e297\";\n}\n.glyphicons.kettle i:before {\n  content: \"\\e298\";\n}\n.glyphicons.hospital i:before {\n  content: \"\\e299\";\n}\n.glyphicons.hospital_h i:before {\n  content: \"\\e300\";\n}\n.glyphicons.microphone i:before {\n  content: \"\\e301\";\n}\n.glyphicons.webcam i:before {\n  content: \"\\e302\";\n}\n.glyphicons.temple_christianity_church i:before {\n  content: \"\\e303\";\n}\n.glyphicons.temple_islam i:before {\n  content: \"\\e304\";\n}\n.glyphicons.temple_hindu i:before {\n  content: \"\\e305\";\n}\n.glyphicons.temple_buddhist i:before {\n  content: \"\\e306\";\n}\n.glyphicons.bicycle i:before {\n  content: \"\\e307\";\n}\n.glyphicons.life_preserver i:before {\n  content: \"\\e308\";\n}\n.glyphicons.share_alt i:before {\n  content: \"\\e309\";\n}\n.glyphicons.comments i:before {\n  content: \"\\e310\";\n}\n.glyphicons.flower i:before {\n  content: \"\\2698\";\n}\n.glyphicons.baseball i:before {\n  content: \"\\e312\";\n}\n.glyphicons.rugby i:before {\n  content: \"\\e313\";\n}\n.glyphicons.ax i:before {\n  content: \"\\e314\";\n}\n.glyphicons.table_tennis i:before {\n  content: \"\\e315\";\n}\n.glyphicons.bowling i:before {\n  content: \"\\e316\";\n}\n.glyphicons.tree_conifer i:before {\n  content: \"\\e317\";\n}\n.glyphicons.tree_deciduous i:before {\n  content: \"\\e318\";\n}\n.glyphicons.more_items i:before {\n  content: \"\\e319\";\n}\n.glyphicons.sort i:before {\n  content: \"\\e320\";\n}\n.glyphicons.filter i:before {\n  content: \"\\e321\";\n}\n.glyphicons.gamepad i:before {\n  content: \"\\e322\";\n}\n.glyphicons.playing_dices i:before {\n  content: \"\\e323\";\n}\n.glyphicons.calculator i:before {\n  content: \"\\e324\";\n}\n.glyphicons.tie i:before {\n  content: \"\\e325\";\n}\n.glyphicons.wallet i:before {\n  content: \"\\e326\";\n}\n.glyphicons.piano i:before {\n  content: \"\\e327\";\n}\n.glyphicons.sampler i:before {\n  content: \"\\e328\";\n}\n.glyphicons.podium i:before {\n  content: \"\\e329\";\n}\n.glyphicons.soccer_ball i:before {\n  content: \"\\e330\";\n}\n.glyphicons.blog i:before {\n  content: \"\\e331\";\n}\n.glyphicons.dashboard i:before {\n  content: \"\\e332\";\n}\n.glyphicons.certificate i:before {\n  content: \"\\e333\";\n}\n.glyphicons.bell i:before {\n  content: \"\\e334\";\n}\n.glyphicons.candle i:before {\n  content: \"\\e335\";\n}\n.glyphicons.pushpin i:before {\n  content: \"\\e336\";\n}\n.glyphicons.iphone_shake i:before {\n  content: \"\\e337\";\n}\n.glyphicons.pin_flag i:before {\n  content: \"\\e338\";\n}\n.glyphicons.turtle i:before {\n  content: \"\\e339\";\n}\n.glyphicons.rabbit i:before {\n  content: \"\\e340\";\n}\n.glyphicons.globe i:before {\n  content: \"\\e341\";\n}\n.glyphicons.briefcase i:before {\n  content: \"\\e342\";\n}\n.glyphicons.hdd i:before {\n  content: \"\\e343\";\n}\n.glyphicons.thumbs_up i:before {\n  content: \"\\e344\";\n}\n.glyphicons.thumbs_down i:before {\n  content: \"\\e345\";\n}\n.glyphicons.hand_right i:before {\n  content: \"\\e346\";\n}\n.glyphicons.hand_left i:before {\n  content: \"\\e347\";\n}\n.glyphicons.hand_up i:before {\n  content: \"\\e348\";\n}\n.glyphicons.hand_down i:before {\n  content: \"\\e349\";\n}\n.glyphicons.fullscreen i:before {\n  content: \"\\e350\";\n}\n.glyphicons.shopping_bag i:before {\n  content: \"\\e351\";\n}\n.glyphicons.book_open i:before {\n  content: \"\\e352\";\n}\n.glyphicons.nameplate i:before {\n  content: \"\\e353\";\n}\n.glyphicons.nameplate_alt i:before {\n  content: \"\\e354\";\n}\n.glyphicons.vases i:before {\n  content: \"\\e355\";\n}\n.glyphicons.bullhorn i:before {\n  content: \"\\e356\";\n}\n.glyphicons.dumbbell i:before {\n  content: \"\\e357\";\n}\n.glyphicons.suitcase i:before {\n  content: \"\\e358\";\n}\n.glyphicons.file_import i:before {\n  content: \"\\e359\";\n}\n.glyphicons.file_export i:before {\n  content: \"\\e360\";\n}\n.glyphicons.bug i:before {\n  content: \"\\e361\";\n}\n.glyphicons.crown i:before {\n  content: \"\\e362\";\n}\n.glyphicons.smoking i:before {\n  content: \"\\e363\";\n}\n.glyphicons.cloud-upload i:before {\n  content: \"\\e364\";\n}\n.glyphicons.cloud-download i:before {\n  content: \"\\e365\";\n}\n.glyphicons.restart i:before {\n  content: \"\\e366\";\n}\n.glyphicons.security_camera i:before {\n  content: \"\\e367\";\n}\n.glyphicons.expand i:before {\n  content: \"\\e368\";\n}\n.glyphicons.collapse i:before {\n  content: \"\\e369\";\n}\n.glyphicons.collapse_top i:before {\n  content: \"\\e370\";\n}\n.glyphicons.globe_af i:before {\n  content: \"\\e371\";\n}\n.glyphicons.global i:before {\n  content: \"\\e372\";\n}\n.glyphicons.spray i:before {\n  content: \"\\e373\";\n}\n.glyphicons.nails i:before {\n  content: \"\\e374\";\n}\n.glyphicons.claw_hammer i:before {\n  content: \"\\e375\";\n}\n.glyphicons.classic_hammer i:before {\n  content: \"\\e376\";\n}\n.glyphicons.hand_saw i:before {\n  content: \"\\e377\";\n}\n.glyphicons.riflescope i:before {\n  content: \"\\e378\";\n}\n.glyphicons.electrical_socket_eu i:before {\n  content: \"\\e379\";\n}\n.glyphicons.electrical_socket_us i:before {\n  content: \"\\e380\";\n}\n.glyphicons.pinterest i:before {\n  content: \"\\e381\";\n}\n.glyphicons.dropbox i:before {\n  content: \"\\e382\";\n}\n.glyphicons.google_plus i:before {\n  content: \"\\e383\";\n}\n.glyphicons.jolicloud i:before {\n  content: \"\\e384\";\n}\n.glyphicons.yahoo i:before {\n  content: \"\\e385\";\n}\n.glyphicons.blogger i:before {\n  content: \"\\e386\";\n}\n.glyphicons.picasa i:before {\n  content: \"\\e387\";\n}\n.glyphicons.amazon i:before {\n  content: \"\\e388\";\n}\n.glyphicons.tumblr i:before {\n  content: \"\\e389\";\n}\n.glyphicons.wordpress i:before {\n  content: \"\\e390\";\n}\n.glyphicons.instapaper i:before {\n  content: \"\\e391\";\n}\n.glyphicons.evernote i:before {\n  content: \"\\e392\";\n}\n.glyphicons.xing i:before {\n  content: \"\\e393\";\n}\n.glyphicons.zootool i:before {\n  content: \"\\e394\";\n}\n.glyphicons.dribbble i:before {\n  content: \"\\e395\";\n}\n.glyphicons.deviantart i:before {\n  content: \"\\e396\";\n}\n.glyphicons.read_it_later i:before {\n  content: \"\\e397\";\n}\n.glyphicons.linked_in i:before {\n  content: \"\\e398\";\n}\n.glyphicons.forrst i:before {\n  content: \"\\e399\";\n}\n.glyphicons.pinboard i:before {\n  content: \"\\e400\";\n}\n.glyphicons.behance i:before {\n  content: \"\\e401\";\n}\n.glyphicons.github i:before {\n  content: \"\\e402\";\n}\n.glyphicons.youtube i:before {\n  content: \"\\e403\";\n}\n.glyphicons.skitch i:before {\n  content: \"\\e404\";\n}\n.glyphicons.foursquare i:before {\n  content: \"\\e405\";\n}\n.glyphicons.quora i:before {\n  content: \"\\e406\";\n}\n.glyphicons.badoo i:before {\n  content: \"\\e407\";\n}\n.glyphicons.spotify i:before {\n  content: \"\\e408\";\n}\n.glyphicons.stumbleupon i:before {\n  content: \"\\e409\";\n}\n.glyphicons.readability i:before {\n  content: \"\\e410\";\n}\n.glyphicons.facebook i:before {\n  content: \"\\e411\";\n}\n.glyphicons.twitter i:before {\n  content: \"\\e412\";\n}\n.glyphicons.instagram i:before {\n  content: \"\\e413\";\n}\n.glyphicons.posterous_spaces i:before {\n  content: \"\\e414\";\n}\n.glyphicons.vimeo i:before {\n  content: \"\\e415\";\n}\n.glyphicons.flickr i:before {\n  content: \"\\e416\";\n}\n.glyphicons.last_fm i:before {\n  content: \"\\e417\";\n}\n.glyphicons.rss i:before {\n  content: \"\\e418\";\n}\n.glyphicons.skype i:before {\n  content: \"\\e419\";\n}\n.glyphicons.e-mail i:before {\n  content: \"\\e420\";\n}\n.glyphicons-icon {\n  display: inline-block;\n  width: 48px;\n  height: 48px;\n  line-height: 48px;\n  vertical-align: text-top;\n  background-image: url(assets/glyphicons.png);\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  vertical-align: top;\n  *display: inline;\n  *zoom: 1;\n  *margin-right: .3em;\n}\n.no-inlinesvg .glyphicons-icon {\n  background-image: url(assets/glyphicons.png);\n}\n.glyphicons-icon.white {\n  background-image: url(assets/glyphicons-white.svg);\n}\n.no-inlinesvg .glyphicons-icon.white {\n  background-image: url(assets/glyphicons-white.png);\n}\n.glyphicons-icon.glass {\n  background-position: 4px 11px;\n}\n.glyphicons-icon.leaf {\n  background-position: -44px 11px;\n}\n.glyphicons-icon.dog {\n  background-position: -92px 11px;\n}\n.glyphicons-icon.user {\n  background-position: -140px 11px;\n}\n.glyphicons-icon.girl {\n  background-position: -188px 11px;\n}\n.glyphicons-icon.car {\n  background-position: -236px 11px;\n}\n.glyphicons-icon.user_add {\n  background-position: -284px 11px;\n}\n.glyphicons-icon.user_remove {\n  background-position: -332px 11px;\n}\n.glyphicons-icon.film {\n  background-position: -380px 11px;\n}\n.glyphicons-icon.magic {\n  background-position: -428px 11px;\n}\n.glyphicons-icon.envelope {\n  background-position: 4px -37px;\n}\n.glyphicons-icon.camera {\n  background-position: -44px -37px;\n}\n.glyphicons-icon.heart {\n  background-position: -92px -37px;\n}\n.glyphicons-icon.beach_umbrella {\n  background-position: -140px -37px;\n}\n.glyphicons-icon.train {\n  background-position: -188px -37px;\n}\n.glyphicons-icon.print {\n  background-position: -236px -37px;\n}\n.glyphicons-icon.bin {\n  background-position: -284px -37px;\n}\n.glyphicons-icon.music {\n  background-position: -332px -37px;\n}\n.glyphicons-icon.note {\n  background-position: -380px -37px;\n}\n.glyphicons-icon.heart_empty {\n  background-position: -428px -37px;\n}\n.glyphicons-icon.home {\n  background-position: 4px -85px;\n}\n.glyphicons-icon.snowflake {\n  background-position: -44px -85px;\n}\n.glyphicons-icon.fire {\n  background-position: -92px -85px;\n}\n.glyphicons-icon.magnet {\n  background-position: -140px -85px;\n}\n.glyphicons-icon.parents {\n  background-position: -188px -85px;\n}\n.glyphicons-icon.binoculars {\n  background-position: -236px -85px;\n}\n.glyphicons-icon.road {\n  background-position: -284px -85px;\n}\n.glyphicons-icon.search {\n  background-position: -332px -85px;\n}\n.glyphicons-icon.cars {\n  background-position: -380px -85px;\n}\n.glyphicons-icon.notes_2 {\n  background-position: -428px -85px;\n}\n.glyphicons-icon.pencil {\n  background-position: 4px -133px;\n}\n.glyphicons-icon.bus {\n  background-position: -44px -133px;\n}\n.glyphicons-icon.wifi_alt {\n  background-position: -92px -133px;\n}\n.glyphicons-icon.luggage {\n  background-position: -140px -133px;\n}\n.glyphicons-icon.old_man {\n  background-position: -188px -133px;\n}\n.glyphicons-icon.woman {\n  background-position: -236px -133px;\n}\n.glyphicons-icon.file {\n  background-position: -284px -133px;\n}\n.glyphicons-icon.coins {\n  background-position: -332px -133px;\n}\n.glyphicons-icon.airplane {\n  background-position: -380px -133px;\n}\n.glyphicons-icon.notes {\n  background-position: -428px -133px;\n}\n.glyphicons-icon.stats {\n  background-position: 4px -181px;\n}\n.glyphicons-icon.charts {\n  background-position: -44px -181px;\n}\n.glyphicons-icon.pie_chart {\n  background-position: -92px -181px;\n}\n.glyphicons-icon.group {\n  background-position: -140px -181px;\n}\n.glyphicons-icon.keys {\n  background-position: -188px -181px;\n}\n.glyphicons-icon.calendar {\n  background-position: -236px -181px;\n}\n.glyphicons-icon.router {\n  background-position: -284px -181px;\n}\n.glyphicons-icon.camera_small {\n  background-position: -332px -181px;\n}\n.glyphicons-icon.dislikes {\n  background-position: -380px -181px;\n}\n.glyphicons-icon.star {\n  background-position: -428px -181px;\n}\n.glyphicons-icon.link {\n  background-position: 4px -229px;\n}\n.glyphicons-icon.eye_open {\n  background-position: -44px -229px;\n}\n.glyphicons-icon.eye_close {\n  background-position: -92px -229px;\n}\n.glyphicons-icon.alarm {\n  background-position: -140px -229px;\n}\n.glyphicons-icon.clock {\n  background-position: -188px -229px;\n}\n.glyphicons-icon.stopwatch {\n  background-position: -236px -229px;\n}\n.glyphicons-icon.projector {\n  background-position: -284px -229px;\n}\n.glyphicons-icon.history {\n  background-position: -332px -229px;\n}\n.glyphicons-icon.truck {\n  background-position: -380px -229px;\n}\n.glyphicons-icon.cargo {\n  background-position: -428px -229px;\n}\n.glyphicons-icon.compass {\n  background-position: 4px -277px;\n}\n.glyphicons-icon.keynote {\n  background-position: -44px -277px;\n}\n.glyphicons-icon.paperclip {\n  background-position: -92px -277px;\n}\n.glyphicons-icon.power {\n  background-position: -140px -277px;\n}\n.glyphicons-icon.lightbulb {\n  background-position: -188px -277px;\n}\n.glyphicons-icon.tag {\n  background-position: -236px -277px;\n}\n.glyphicons-icon.tags {\n  background-position: -284px -277px;\n}\n.glyphicons-icon.cleaning {\n  background-position: -332px -277px;\n}\n.glyphicons-icon.ruller {\n  background-position: -380px -277px;\n}\n.glyphicons-icon.gift {\n  background-position: -428px -277px;\n}\n.glyphicons-icon.umbrella {\n  background-position: 4px -325px;\n}\n.glyphicons-icon.book {\n  background-position: -44px -325px;\n}\n.glyphicons-icon.bookmark {\n  background-position: -92px -325px;\n}\n.glyphicons-icon.wifi {\n  background-position: -140px -325px;\n}\n.glyphicons-icon.cup {\n  background-position: -188px -325px;\n}\n.glyphicons-icon.stroller {\n  background-position: -236px -325px;\n}\n.glyphicons-icon.headphones {\n  background-position: -284px -325px;\n}\n.glyphicons-icon.headset {\n  background-position: -332px -325px;\n}\n.glyphicons-icon.warning_sign {\n  background-position: -380px -325px;\n}\n.glyphicons-icon.signal {\n  background-position: -428px -325px;\n}\n.glyphicons-icon.retweet {\n  background-position: 4px -373px;\n}\n.glyphicons-icon.refresh {\n  background-position: -44px -373px;\n}\n.glyphicons-icon.roundabout {\n  background-position: -92px -373px;\n}\n.glyphicons-icon.random {\n  background-position: -140px -373px;\n}\n.glyphicons-icon.heat {\n  background-position: -188px -373px;\n}\n.glyphicons-icon.repeat {\n  background-position: -236px -373px;\n}\n.glyphicons-icon.display {\n  background-position: -284px -373px;\n}\n.glyphicons-icon.log_book {\n  background-position: -332px -373px;\n}\n.glyphicons-icon.adress_book {\n  background-position: -380px -373px;\n}\n.glyphicons-icon.building {\n  background-position: -428px -373px;\n}\n.glyphicons-icon.eyedropper {\n  background-position: 4px -421px;\n}\n.glyphicons-icon.adjust {\n  background-position: -44px -421px;\n}\n.glyphicons-icon.tint {\n  background-position: -92px -421px;\n}\n.glyphicons-icon.crop {\n  background-position: -140px -421px;\n}\n.glyphicons-icon.vector_path_square {\n  background-position: -188px -421px;\n}\n.glyphicons-icon.vector_path_circle {\n  background-position: -236px -421px;\n}\n.glyphicons-icon.vector_path_polygon {\n  background-position: -284px -421px;\n}\n.glyphicons-icon.vector_path_line {\n  background-position: -332px -421px;\n}\n.glyphicons-icon.vector_path_curve {\n  background-position: -380px -421px;\n}\n.glyphicons-icon.vector_path_all {\n  background-position: -428px -421px;\n}\n.glyphicons-icon.font {\n  background-position: 4px -469px;\n}\n.glyphicons-icon.italic {\n  background-position: -44px -469px;\n}\n.glyphicons-icon.bold {\n  background-position: -92px -469px;\n}\n.glyphicons-icon.text_underline {\n  background-position: -140px -469px;\n}\n.glyphicons-icon.text_strike {\n  background-position: -188px -469px;\n}\n.glyphicons-icon.text_height {\n  background-position: -236px -469px;\n}\n.glyphicons-icon.text_width {\n  background-position: -284px -469px;\n}\n.glyphicons-icon.text_resize {\n  background-position: -332px -469px;\n}\n.glyphicons-icon.left_indent {\n  background-position: -380px -469px;\n}\n.glyphicons-icon.right_indent {\n  background-position: -428px -469px;\n}\n.glyphicons-icon.align_left {\n  background-position: 4px -517px;\n}\n.glyphicons-icon.align_center {\n  background-position: -44px -517px;\n}\n.glyphicons-icon.align_right {\n  background-position: -92px -517px;\n}\n.glyphicons-icon.justify {\n  background-position: -140px -517px;\n}\n.glyphicons-icon.list {\n  background-position: -188px -517px;\n}\n.glyphicons-icon.text_smaller {\n  background-position: -236px -517px;\n}\n.glyphicons-icon.text_bigger {\n  background-position: -284px -517px;\n}\n.glyphicons-icon.embed {\n  background-position: -332px -517px;\n}\n.glyphicons-icon.embed_close {\n  background-position: -380px -517px;\n}\n.glyphicons-icon.table {\n  background-position: -428px -517px;\n}\n.glyphicons-icon.message_full {\n  background-position: 4px -565px;\n}\n.glyphicons-icon.message_empty {\n  background-position: -44px -565px;\n}\n.glyphicons-icon.message_in {\n  background-position: -92px -565px;\n}\n.glyphicons-icon.message_out {\n  background-position: -140px -565px;\n}\n.glyphicons-icon.message_plus {\n  background-position: -188px -565px;\n}\n.glyphicons-icon.message_minus {\n  background-position: -236px -565px;\n}\n.glyphicons-icon.message_ban {\n  background-position: -284px -565px;\n}\n.glyphicons-icon.message_flag {\n  background-position: -332px -565px;\n}\n.glyphicons-icon.message_lock {\n  background-position: -380px -565px;\n}\n.glyphicons-icon.message_new {\n  background-position: -428px -565px;\n}\n.glyphicons-icon.inbox {\n  background-position: 4px -613px;\n}\n.glyphicons-icon.inbox_plus {\n  background-position: -44px -613px;\n}\n.glyphicons-icon.inbox_minus {\n  background-position: -92px -613px;\n}\n.glyphicons-icon.inbox_lock {\n  background-position: -140px -613px;\n}\n.glyphicons-icon.inbox_in {\n  background-position: -188px -613px;\n}\n.glyphicons-icon.inbox_out {\n  background-position: -236px -613px;\n}\n.glyphicons-icon.cogwheel {\n  background-position: -284px -613px;\n}\n.glyphicons-icon.cogwheels {\n  background-position: -332px -613px;\n}\n.glyphicons-icon.picture {\n  background-position: -380px -613px;\n}\n.glyphicons-icon.adjust_alt {\n  background-position: -428px -613px;\n}\n.glyphicons-icon.database_lock {\n  background-position: 4px -661px;\n}\n.glyphicons-icon.database_plus {\n  background-position: -44px -661px;\n}\n.glyphicons-icon.database_minus {\n  background-position: -92px -661px;\n}\n.glyphicons-icon.database_ban {\n  background-position: -140px -661px;\n}\n.glyphicons-icon.folder_open {\n  background-position: -188px -661px;\n}\n.glyphicons-icon.folder_plus {\n  background-position: -236px -661px;\n}\n.glyphicons-icon.folder_minus {\n  background-position: -284px -661px;\n}\n.glyphicons-icon.folder_lock {\n  background-position: -332px -661px;\n}\n.glyphicons-icon.folder_flag {\n  background-position: -380px -661px;\n}\n.glyphicons-icon.folder_new {\n  background-position: -428px -661px;\n}\n.glyphicons-icon.edit {\n  background-position: 4px -709px;\n}\n.glyphicons-icon.new_window {\n  background-position: -44px -709px;\n}\n.glyphicons-icon.check {\n  background-position: -92px -709px;\n}\n.glyphicons-icon.unchecked {\n  background-position: -140px -709px;\n}\n.glyphicons-icon.more_windows {\n  background-position: -188px -709px;\n}\n.glyphicons-icon.show_big_thumbnails {\n  background-position: -236px -709px;\n}\n.glyphicons-icon.show_thumbnails {\n  background-position: -284px -709px;\n}\n.glyphicons-icon.show_thumbnails_with_lines {\n  background-position: -332px -709px;\n}\n.glyphicons-icon.show_lines {\n  background-position: -380px -709px;\n}\n.glyphicons-icon.playlist {\n  background-position: -428px -709px;\n}\n.glyphicons-icon.imac {\n  background-position: 4px -757px;\n}\n.glyphicons-icon.macbook {\n  background-position: -44px -757px;\n}\n.glyphicons-icon.ipad {\n  background-position: -92px -757px;\n}\n.glyphicons-icon.iphone {\n  background-position: -140px -757px;\n}\n.glyphicons-icon.iphone_transfer {\n  background-position: -188px -757px;\n}\n.glyphicons-icon.iphone_exchange {\n  background-position: -236px -757px;\n}\n.glyphicons-icon.ipod {\n  background-position: -284px -757px;\n}\n.glyphicons-icon.ipod_shuffle {\n  background-position: -332px -757px;\n}\n.glyphicons-icon.ear_plugs {\n  background-position: -380px -757px;\n}\n.glyphicons-icon.phone {\n  background-position: -428px -757px;\n}\n.glyphicons-icon.step_backward {\n  background-position: 4px -805px;\n}\n.glyphicons-icon.fast_backward {\n  background-position: -44px -805px;\n}\n.glyphicons-icon.rewind {\n  background-position: -92px -805px;\n}\n.glyphicons-icon.play {\n  background-position: -140px -805px;\n}\n.glyphicons-icon.pause {\n  background-position: -188px -805px;\n}\n.glyphicons-icon.stop {\n  background-position: -236px -805px;\n}\n.glyphicons-icon.forward {\n  background-position: -284px -805px;\n}\n.glyphicons-icon.fast_forward {\n  background-position: -332px -805px;\n}\n.glyphicons-icon.step_forward {\n  background-position: -380px -805px;\n}\n.glyphicons-icon.eject {\n  background-position: -428px -805px;\n}\n.glyphicons-icon.facetime_video {\n  background-position: 4px -853px;\n}\n.glyphicons-icon.download_alt {\n  background-position: -44px -853px;\n}\n.glyphicons-icon.mute {\n  background-position: -92px -853px;\n}\n.glyphicons-icon.volume_down {\n  background-position: -140px -853px;\n}\n.glyphicons-icon.volume_up {\n  background-position: -188px -853px;\n}\n.glyphicons-icon.screenshot {\n  background-position: -236px -853px;\n}\n.glyphicons-icon.move {\n  background-position: -284px -853px;\n}\n.glyphicons-icon.more {\n  background-position: -332px -853px;\n}\n.glyphicons-icon.brightness_reduce {\n  background-position: -380px -853px;\n}\n.glyphicons-icon.brightness_increase {\n  background-position: -428px -853px;\n}\n.glyphicons-icon.circle_plus {\n  background-position: 4px -901px;\n}\n.glyphicons-icon.circle_minus {\n  background-position: -44px -901px;\n}\n.glyphicons-icon.circle_remove {\n  background-position: -92px -901px;\n}\n.glyphicons-icon.circle_ok {\n  background-position: -140px -901px;\n}\n.glyphicons-icon.circle_question_mark {\n  background-position: -188px -901px;\n}\n.glyphicons-icon.circle_info {\n  background-position: -236px -901px;\n}\n.glyphicons-icon.circle_exclamation_mark {\n  background-position: -284px -901px;\n}\n.glyphicons-icon.remove {\n  background-position: -332px -901px;\n}\n.glyphicons-icon.ok {\n  background-position: -380px -901px;\n}\n.glyphicons-icon.ban {\n  background-position: -428px -901px;\n}\n.glyphicons-icon.download {\n  background-position: 4px -949px;\n}\n.glyphicons-icon.upload {\n  background-position: -44px -949px;\n}\n.glyphicons-icon.shopping_cart {\n  background-position: -92px -949px;\n}\n.glyphicons-icon.lock {\n  background-position: -140px -949px;\n}\n.glyphicons-icon.unlock {\n  background-position: -188px -949px;\n}\n.glyphicons-icon.electricity {\n  background-position: -236px -949px;\n}\n.glyphicons-icon.ok_2 {\n  background-position: -284px -949px;\n}\n.glyphicons-icon.remove_2 {\n  background-position: -332px -949px;\n}\n.glyphicons-icon.cart_out {\n  background-position: -380px -949px;\n}\n.glyphicons-icon.cart_in {\n  background-position: -428px -949px;\n}\n.glyphicons-icon.left_arrow {\n  background-position: 4px -997px;\n}\n.glyphicons-icon.right_arrow {\n  background-position: -44px -997px;\n}\n.glyphicons-icon.down_arrow {\n  background-position: -92px -997px;\n}\n.glyphicons-icon.up_arrow {\n  background-position: -140px -997px;\n}\n.glyphicons-icon.resize_small {\n  background-position: -188px -997px;\n}\n.glyphicons-icon.resize_full {\n  background-position: -236px -997px;\n}\n.glyphicons-icon.circle_arrow_left {\n  background-position: -284px -997px;\n}\n.glyphicons-icon.circle_arrow_right {\n  background-position: -332px -997px;\n}\n.glyphicons-icon.circle_arrow_top {\n  background-position: -380px -997px;\n}\n.glyphicons-icon.circle_arrow_down {\n  background-position: -428px -997px;\n}\n.glyphicons-icon.play_button {\n  background-position: 4px -1045px;\n}\n.glyphicons-icon.unshare {\n  background-position: -44px -1045px;\n}\n.glyphicons-icon.share {\n  background-position: -92px -1045px;\n}\n.glyphicons-icon.chevron-right {\n  background-position: -140px -1045px;\n}\n.glyphicons-icon.chevron-left {\n  background-position: -188px -1045px;\n}\n.glyphicons-icon.bluetooth {\n  background-position: -236px -1045px;\n}\n.glyphicons-icon.euro {\n  background-position: -284px -1045px;\n}\n.glyphicons-icon.usd {\n  background-position: -332px -1045px;\n}\n.glyphicons-icon.gbp {\n  background-position: -380px -1045px;\n}\n.glyphicons-icon.retweet_2 {\n  background-position: -428px -1045px;\n}\n.glyphicons-icon.moon {\n  background-position: 4px -1093px;\n}\n.glyphicons-icon.sun {\n  background-position: -44px -1093px;\n}\n.glyphicons-icon.cloud {\n  background-position: -92px -1093px;\n}\n.glyphicons-icon.direction {\n  background-position: -140px -1093px;\n}\n.glyphicons-icon.brush {\n  background-position: -188px -1093px;\n}\n.glyphicons-icon.pen {\n  background-position: -236px -1093px;\n}\n.glyphicons-icon.zoom_in {\n  background-position: -284px -1093px;\n}\n.glyphicons-icon.zoom_out {\n  background-position: -332px -1093px;\n}\n.glyphicons-icon.pin {\n  background-position: -380px -1093px;\n}\n.glyphicons-icon.albums {\n  background-position: -428px -1093px;\n}\n.glyphicons-icon.rotation_lock {\n  background-position: 4px -1141px;\n}\n.glyphicons-icon.flash {\n  background-position: -44px -1141px;\n}\n.glyphicons-icon.google_maps {\n  background-position: -92px -1141px;\n}\n.glyphicons-icon.anchor {\n  background-position: -140px -1141px;\n}\n.glyphicons-icon.conversation {\n  background-position: -188px -1141px;\n}\n.glyphicons-icon.chat {\n  background-position: -236px -1141px;\n}\n.glyphicons-icon.male {\n  background-position: -284px -1141px;\n}\n.glyphicons-icon.female {\n  background-position: -332px -1141px;\n}\n.glyphicons-icon.asterisk {\n  background-position: -380px -1141px;\n}\n.glyphicons-icon.divide {\n  background-position: -428px -1141px;\n}\n.glyphicons-icon.snorkel_diving {\n  background-position: 4px -1189px;\n}\n.glyphicons-icon.scuba_diving {\n  background-position: -44px -1189px;\n}\n.glyphicons-icon.oxygen_bottle {\n  background-position: -92px -1189px;\n}\n.glyphicons-icon.fins {\n  background-position: -140px -1189px;\n}\n.glyphicons-icon.fishes {\n  background-position: -188px -1189px;\n}\n.glyphicons-icon.boat {\n  background-position: -236px -1189px;\n}\n.glyphicons-icon.delete {\n  background-position: -284px -1189px;\n}\n.glyphicons-icon.sheriffs_star {\n  background-position: -332px -1189px;\n}\n.glyphicons-icon.qrcode {\n  background-position: -380px -1189px;\n}\n.glyphicons-icon.barcode {\n  background-position: -428px -1189px;\n}\n.glyphicons-icon.pool {\n  background-position: 4px -1237px;\n}\n.glyphicons-icon.buoy {\n  background-position: -44px -1237px;\n}\n.glyphicons-icon.spade {\n  background-position: -92px -1237px;\n}\n.glyphicons-icon.bank {\n  background-position: -140px -1237px;\n}\n.glyphicons-icon.vcard {\n  background-position: -188px -1237px;\n}\n.glyphicons-icon.electrical_plug {\n  background-position: -236px -1237px;\n}\n.glyphicons-icon.flag {\n  background-position: -284px -1237px;\n}\n.glyphicons-icon.credit_card {\n  background-position: -332px -1237px;\n}\n.glyphicons-icon.keyboard-wireless {\n  background-position: -380px -1237px;\n}\n.glyphicons-icon.keyboard-wired {\n  background-position: -428px -1237px;\n}\n.glyphicons-icon.shield {\n  background-position: 4px -1285px;\n}\n.glyphicons-icon.ring {\n  background-position: -44px -1285px;\n}\n.glyphicons-icon.cake {\n  background-position: -92px -1285px;\n}\n.glyphicons-icon.drink {\n  background-position: -140px -1285px;\n}\n.glyphicons-icon.beer {\n  background-position: -188px -1285px;\n}\n.glyphicons-icon.fast_food {\n  background-position: -236px -1285px;\n}\n.glyphicons-icon.cutlery {\n  background-position: -284px -1285px;\n}\n.glyphicons-icon.pizza {\n  background-position: -332px -1285px;\n}\n.glyphicons-icon.birthday_cake {\n  background-position: -380px -1285px;\n}\n.glyphicons-icon.tablet {\n  background-position: -428px -1285px;\n}\n.glyphicons-icon.settings {\n  background-position: 4px -1333px;\n}\n.glyphicons-icon.bullets {\n  background-position: -44px -1333px;\n}\n.glyphicons-icon.cardio {\n  background-position: -92px -1333px;\n}\n.glyphicons-icon.t-shirt {\n  background-position: -140px -1333px;\n}\n.glyphicons-icon.pants {\n  background-position: -188px -1333px;\n}\n.glyphicons-icon.sweater {\n  background-position: -236px -1333px;\n}\n.glyphicons-icon.fabric {\n  background-position: -284px -1333px;\n}\n.glyphicons-icon.leather {\n  background-position: -332px -1333px;\n}\n.glyphicons-icon.scissors {\n  background-position: -380px -1333px;\n}\n.glyphicons-icon.bomb {\n  background-position: -428px -1333px;\n}\n.glyphicons-icon.skull {\n  background-position: 4px -1381px;\n}\n.glyphicons-icon.celebration {\n  background-position: -44px -1381px;\n}\n.glyphicons-icon.tea_kettle {\n  background-position: -92px -1381px;\n}\n.glyphicons-icon.french_press {\n  background-position: -140px -1381px;\n}\n.glyphicons-icon.coffe_cup {\n  background-position: -188px -1381px;\n}\n.glyphicons-icon.pot {\n  background-position: -236px -1381px;\n}\n.glyphicons-icon.grater {\n  background-position: -284px -1381px;\n}\n.glyphicons-icon.kettle {\n  background-position: -332px -1381px;\n}\n.glyphicons-icon.hospital {\n  background-position: -380px -1381px;\n}\n.glyphicons-icon.hospital_h {\n  background-position: -428px -1381px;\n}\n.glyphicons-icon.microphone {\n  background-position: 4px -1429px;\n}\n.glyphicons-icon.webcam {\n  background-position: -44px -1429px;\n}\n.glyphicons-icon.temple_christianity_church {\n  background-position: -92px -1429px;\n}\n.glyphicons-icon.temple_islam {\n  background-position: -140px -1429px;\n}\n.glyphicons-icon.temple_hindu {\n  background-position: -188px -1429px;\n}\n.glyphicons-icon.temple_buddhist {\n  background-position: -236px -1429px;\n}\n.glyphicons-icon.bicycle {\n  background-position: -284px -1429px;\n}\n.glyphicons-icon.life_preserver {\n  background-position: -332px -1429px;\n}\n.glyphicons-icon.share_alt {\n  background-position: -380px -1429px;\n}\n.glyphicons-icon.comments {\n  background-position: -428px -1429px;\n}\n.glyphicons-icon.flower {\n  background-position: 4px -1477px;\n}\n.glyphicons-icon.baseball {\n  background-position: -44px -1477px;\n}\n.glyphicons-icon.rugby {\n  background-position: -92px -1477px;\n}\n.glyphicons-icon.ax {\n  background-position: -140px -1477px;\n}\n.glyphicons-icon.table_tennis {\n  background-position: -188px -1477px;\n}\n.glyphicons-icon.bowling {\n  background-position: -236px -1477px;\n}\n.glyphicons-icon.tree_conifer {\n  background-position: -284px -1477px;\n}\n.glyphicons-icon.tree_deciduous {\n  background-position: -332px -1477px;\n}\n.glyphicons-icon.more_items {\n  background-position: -380px -1477px;\n}\n.glyphicons-icon.sort {\n  background-position: -428px -1477px;\n}\n.glyphicons-icon.filter {\n  background-position: 4px -1525px;\n}\n.glyphicons-icon.gamepad {\n  background-position: -44px -1525px;\n}\n.glyphicons-icon.playing_dices {\n  background-position: -92px -1525px;\n}\n.glyphicons-icon.calculator {\n  background-position: -140px -1525px;\n}\n.glyphicons-icon.tie {\n  background-position: -188px -1525px;\n}\n.glyphicons-icon.wallet {\n  background-position: -236px -1525px;\n}\n.glyphicons-icon.piano {\n  background-position: -284px -1525px;\n}\n.glyphicons-icon.sampler {\n  background-position: -332px -1525px;\n}\n.glyphicons-icon.podium {\n  background-position: -380px -1525px;\n}\n.glyphicons-icon.soccer_ball {\n  background-position: -428px -1525px;\n}\n.glyphicons-icon.blog {\n  background-position: 4px -1573px;\n}\n.glyphicons-icon.dashboard {\n  background-position: -44px -1573px;\n}\n.glyphicons-icon.certificate {\n  background-position: -92px -1573px;\n}\n.glyphicons-icon.bell {\n  background-position: -140px -1573px;\n}\n.glyphicons-icon.candle {\n  background-position: -188px -1573px;\n}\n.glyphicons-icon.pushpin {\n  background-position: -236px -1573px;\n}\n.glyphicons-icon.iphone_shake {\n  background-position: -284px -1573px;\n}\n.glyphicons-icon.pin_flag {\n  background-position: -332px -1573px;\n}\n.glyphicons-icon.turtle {\n  background-position: -380px -1573px;\n}\n.glyphicons-icon.rabbit {\n  background-position: -428px -1573px;\n}\n.glyphicons-icon.globe {\n  background-position: 4px -1621px;\n}\n.glyphicons-icon.briefcase {\n  background-position: -44px -1621px;\n}\n.glyphicons-icon.hdd {\n  background-position: -92px -1621px;\n}\n.glyphicons-icon.thumbs_up {\n  background-position: -140px -1621px;\n}\n.glyphicons-icon.thumbs_down {\n  background-position: -188px -1621px;\n}\n.glyphicons-icon.hand_right {\n  background-position: -236px -1621px;\n}\n.glyphicons-icon.hand_left {\n  background-position: -284px -1621px;\n}\n.glyphicons-icon.hand_up {\n  background-position: -332px -1621px;\n}\n.glyphicons-icon.hand_down {\n  background-position: -380px -1621px;\n}\n.glyphicons-icon.fullscreen {\n  background-position: -428px -1621px;\n}\n.glyphicons-icon.shopping_bag {\n  background-position: 4px -1669px;\n}\n.glyphicons-icon.book_open {\n  background-position: -44px -1669px;\n}\n.glyphicons-icon.nameplate {\n  background-position: -92px -1669px;\n}\n.glyphicons-icon.nameplate_alt {\n  background-position: -140px -1669px;\n}\n.glyphicons-icon.vases {\n  background-position: -188px -1669px;\n}\n.glyphicons-icon.bullhorn {\n  background-position: -236px -1669px;\n}\n.glyphicons-icon.dumbbell {\n  background-position: -284px -1669px;\n}\n.glyphicons-icon.suitcase {\n  background-position: -332px -1669px;\n}\n.glyphicons-icon.file_import {\n  background-position: -380px -1669px;\n}\n.glyphicons-icon.file_export {\n  background-position: -428px -1669px;\n}\n.glyphicons-icon.bug {\n  background-position: 4px -1717px;\n}\n.glyphicons-icon.crown {\n  background-position: -44px -1717px;\n}\n.glyphicons-icon.smoking {\n  background-position: -92px -1717px;\n}\n.glyphicons-icon.cloud-upload {\n  background-position: -140px -1717px;\n}\n.glyphicons-icon.cloud-download {\n  background-position: -188px -1717px;\n}\n.glyphicons-icon.restart {\n  background-position: -236px -1717px;\n}\n.glyphicons-icon.security_camera {\n  background-position: -284px -1717px;\n}\n.glyphicons-icon.expand {\n  background-position: -332px -1717px;\n}\n.glyphicons-icon.collapse {\n  background-position: -380px -1717px;\n}\n.glyphicons-icon.collapse_top {\n  background-position: -428px -1717px;\n}\n.glyphicons-icon.globe_af {\n  background-position: 4px -1765px;\n}\n.glyphicons-icon.global {\n  background-position: -44px -1765px;\n}\n.glyphicons-icon.spray {\n  background-position: -92px -1765px;\n}\n.glyphicons-icon.nails {\n  background-position: -140px -1765px;\n}\n.glyphicons-icon.claw_hammer {\n  background-position: -188px -1765px;\n}\n.glyphicons-icon.classic_hammer {\n  background-position: -236px -1765px;\n}\n.glyphicons-icon.hand_saw {\n  background-position: -284px -1765px;\n}\n.glyphicons-icon.riflescope {\n  background-position: -332px -1765px;\n}\n.glyphicons-icon.electrical_socket_eu {\n  background-position: -380px -1765px;\n}\n.glyphicons-icon.electrical_socket_us {\n  background-position: -428px -1765px;\n}\n.glyphicons-icon.pinterest {\n  background-position: 4px -1813px;\n}\n.glyphicons-icon.dropbox {\n  background-position: -44px -1813px;\n}\n.glyphicons-icon.google_plus {\n  background-position: -92px -1813px;\n}\n.glyphicons-icon.jolicloud {\n  background-position: -140px -1813px;\n}\n.glyphicons-icon.yahoo {\n  background-position: -188px -1813px;\n}\n.glyphicons-icon.blogger {\n  background-position: -236px -1813px;\n}\n.glyphicons-icon.picasa {\n  background-position: -284px -1813px;\n}\n.glyphicons-icon.amazon {\n  background-position: -332px -1813px;\n}\n.glyphicons-icon.tumblr {\n  background-position: -380px -1813px;\n}\n.glyphicons-icon.wordpress {\n  background-position: -428px -1813px;\n}\n.glyphicons-icon.instapaper {\n  background-position: 4px -1861px;\n}\n.glyphicons-icon.evernote {\n  background-position: -44px -1861px;\n}\n.glyphicons-icon.xing {\n  background-position: -92px -1861px;\n}\n.glyphicons-icon.zootool {\n  background-position: -140px -1861px;\n}\n.glyphicons-icon.dribbble {\n  background-position: -188px -1861px;\n}\n.glyphicons-icon.deviantart {\n  background-position: -236px -1861px;\n}\n.glyphicons-icon.read_it_later {\n  background-position: -284px -1861px;\n}\n.glyphicons-icon.linked_in {\n  background-position: -332px -1861px;\n}\n.glyphicons-icon.forrst {\n  background-position: -380px -1861px;\n}\n.glyphicons-icon.pinboard {\n  background-position: -428px -1861px;\n}\n.glyphicons-icon.behance {\n  background-position: 4px -1909px;\n}\n.glyphicons-icon.github {\n  background-position: -44px -1909px;\n}\n.glyphicons-icon.youtube {\n  background-position: -92px -1909px;\n}\n.glyphicons-icon.skitch {\n  background-position: -140px -1909px;\n}\n.glyphicons-icon.foursquare {\n  background-position: -188px -1909px;\n}\n.glyphicons-icon.quora {\n  background-position: -236px -1909px;\n}\n.glyphicons-icon.badoo {\n  background-position: -284px -1909px;\n}\n.glyphicons-icon.spotify {\n  background-position: -332px -1909px;\n}\n.glyphicons-icon.stumbleupon {\n  background-position: -380px -1909px;\n}\n.glyphicons-icon.readability {\n  background-position: -428px -1909px;\n}\n.glyphicons-icon.facebook {\n  background-position: 4px -1957px;\n}\n.glyphicons-icon.twitter {\n  background-position: -44px -1957px;\n}\n.glyphicons-icon.instagram {\n  background-position: -92px -1957px;\n}\n.glyphicons-icon.posterous_spaces {\n  background-position: -140px -1957px;\n}\n.glyphicons-icon.vimeo {\n  background-position: -188px -1957px;\n}\n.glyphicons-icon.flickr {\n  background-position: -236px -1957px;\n}\n.glyphicons-icon.last_fm {\n  background-position: -284px -1957px;\n}\n.glyphicons-icon.rss {\n  background-position: -332px -1957px;\n}\n.glyphicons-icon.skype {\n  background-position: -380px -1957px;\n}\n.glyphicons-icon.e-mail {\n  background-position: -428px -1957px;\n}\n",
+			"file": "app/assets/stylesheets/glyphicons.css",
+			"file_size": 53011,
+			"file_write_time": 130171580840000000,
+			"settings":
+			{
+				"buffer_size": 52993,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/*!\n *\n *  Project:  GLYPHICONS HALFLINGS\n *  Author:   Jan Kovarik - www.glyphicons.com\n *  Twitter:  @jankovarik\n *\n */\nhtml,\nhtml .halflings {\n  -webkit-font-smoothing: antialiased !important;\n}\n@font-face {\n  font-family: 'Glyphicons Halflings';\n  src: url('assets/glyphiconshalflings-regular.eot');\n  src: url('assets/glyphiconshalflings-regular.eot') format('embedded-opentype'), url('assets/glyphiconshalflings-regular.woff') format('woff'), url('assets/glyphiconshalflings-regular.ttf') format('truetype'), url('assets/glyphiconshalflings-regular.svg#glyphicons_halflingsregular') format('svg');\n  font-weight: normal;\n  font-style: normal;\n}\n.halflings {\n  display: inline-block;\n  position: relative;\n  padding: 0 0 0 25px;\n  color: #1d1d1b;\n  text-decoration: none;\n  *display: inline;\n  *zoom: 1;\n}\n.halflings i:before {\n  position: absolute;\n  left: 0;\n  top: 0;\n  font: 12px/1em 'Glyphicons Halflings';\n  font-style: normal;\n  color: #1d1d1b;\n}\n.halflings.white i:before {\n  color: #fff;\n}\n.halflings.glass i:before {\n  content: \"\\e001\";\n}\n.halflings.music i:before {\n  content: \"\\e002\";\n}\n.halflings.search i:before {\n  content: \"\\e003\";\n}\n.halflings.envelope i:before {\n  content: \"\\2709\";\n}\n.halflings.heart i:before {\n  content: \"\\e005\";\n}\n.halflings.star i:before {\n  content: \"\\e006\";\n}\n.halflings.star-empty i:before {\n  content: \"\\e007\";\n}\n.halflings.user i:before {\n  content: \"\\e008\";\n}\n.halflings.film i:before {\n  content: \"\\e009\";\n}\n.halflings.th-large i:before {\n  content: \"\\e010\";\n}\n.halflings.th i:before {\n  content: \"\\e011\";\n}\n.halflings.th-list i:before {\n  content: \"\\e012\";\n}\n.halflings.ok i:before {\n  content: \"\\e013\";\n}\n.halflings.remove i:before {\n  content: \"\\e014\";\n}\n.halflings.zoom-in i:before {\n  content: \"\\e015\";\n}\n.halflings.zoom-out i:before {\n  content: \"\\e016\";\n}\n.halflings.off i:before {\n  content: \"\\e017\";\n}\n.halflings.signal i:before {\n  content: \"\\e018\";\n}\n.halflings.cog i:before {\n  content: \"\\e019\";\n}\n.halflings.trash i:before {\n  content: \"\\e020\";\n}\n.halflings.home i:before {\n  content: \"\\e021\";\n}\n.halflings.file i:before {\n  content: \"\\e022\";\n}\n.halflings.time i:before {\n  content: \"\\e023\";\n}\n.halflings.road i:before {\n  content: \"\\e024\";\n}\n.halflings.download-alt i:before {\n  content: \"\\e025\";\n}\n.halflings.download i:before {\n  content: \"\\e026\";\n}\n.halflings.upload i:before {\n  content: \"\\e027\";\n}\n.halflings.inbox i:before {\n  content: \"\\e028\";\n}\n.halflings.play-circle i:before {\n  content: \"\\e029\";\n}\n.halflings.repeat i:before {\n  content: \"\\e030\";\n}\n.halflings.refresh i:before {\n  content: \"\\e031\";\n}\n.halflings.list-alt i:before {\n  content: \"\\e032\";\n}\n.halflings.lock i:before {\n  content: \"\\e033\";\n}\n.halflings.flag i:before {\n  content: \"\\e034\";\n}\n.halflings.headphones i:before {\n  content: \"\\e035\";\n}\n.halflings.volume-off i:before {\n  content: \"\\e036\";\n}\n.halflings.volume-down i:before {\n  content: \"\\e037\";\n}\n.halflings.volume-up i:before {\n  content: \"\\e038\";\n}\n.halflings.qrcode i:before {\n  content: \"\\e039\";\n}\n.halflings.barcode i:before {\n  content: \"\\e040\";\n}\n.halflings.tag i:before {\n  content: \"\\e041\";\n}\n.halflings.tags i:before {\n  content: \"\\e042\";\n}\n.halflings.book i:before {\n  content: \"\\e043\";\n}\n.halflings.bookmark i:before {\n  content: \"\\e044\";\n}\n.halflings.print i:before {\n  content: \"\\e045\";\n}\n.halflings.camera i:before {\n  content: \"\\e046\";\n}\n.halflings.font i:before {\n  content: \"\\e047\";\n}\n.halflings.bold i:before {\n  content: \"\\e048\";\n}\n.halflings.italic i:before {\n  content: \"\\e049\";\n}\n.halflings.text-height i:before {\n  content: \"\\e050\";\n}\n.halflings.text-width i:before {\n  content: \"\\e051\";\n}\n.halflings.align-left i:before {\n  content: \"\\e052\";\n}\n.halflings.align-center i:before {\n  content: \"\\e053\";\n}\n.halflings.align-right i:before {\n  content: \"\\e054\";\n}\n.halflings.align-justify i:before {\n  content: \"\\e055\";\n}\n.halflings.list i:before {\n  content: \"\\e056\";\n}\n.halflings.indent-left i:before {\n  content: \"\\e057\";\n}\n.halflings.indent-right i:before {\n  content: \"\\e058\";\n}\n.halflings.facetime-video i:before {\n  content: \"\\e059\";\n}\n.halflings.picture i:before {\n  content: \"\\e060\";\n}\n.halflings.pencil i:before {\n  content: \"\\270f\";\n}\n.halflings.map-marker i:before {\n  content: \"\\e062\";\n}\n.halflings.adjust i:before {\n  content: \"\\e063\";\n}\n.halflings.tint i:before {\n  content: \"\\e064\";\n}\n.halflings.edit i:before {\n  content: \"\\e065\";\n}\n.halflings.share i:before {\n  content: \"\\e066\";\n}\n.halflings.check i:before {\n  content: \"\\e067\";\n}\n.halflings.move i:before {\n  content: \"\\e068\";\n}\n.halflings.step-backward i:before {\n  content: \"\\e069\";\n}\n.halflings.fast-backward i:before {\n  content: \"\\e070\";\n}\n.halflings.backward i:before {\n  content: \"\\e071\";\n}\n.halflings.play i:before {\n  content: \"\\e072\";\n}\n.halflings.pause i:before {\n  content: \"\\e073\";\n}\n.halflings.stop i:before {\n  content: \"\\e074\";\n}\n.halflings.forward i:before {\n  content: \"\\e075\";\n}\n.halflings.fast-forward i:before {\n  content: \"\\e076\";\n}\n.halflings.step-forward i:before {\n  content: \"\\e077\";\n}\n.halflings.eject i:before {\n  content: \"\\e078\";\n}\n.halflings.chevron-left i:before {\n  content: \"\\e079\";\n}\n.halflings.chevron-right i:before {\n  content: \"\\e080\";\n}\n.halflings.plus-sign i:before {\n  content: \"\\e081\";\n}\n.halflings.minus-sign i:before {\n  content: \"\\e082\";\n}\n.halflings.remove-sign i:before {\n  content: \"\\e083\";\n}\n.halflings.ok-sign i:before {\n  content: \"\\e084\";\n}\n.halflings.question-sign i:before {\n  content: \"\\e085\";\n}\n.halflings.info-sign i:before {\n  content: \"\\e086\";\n}\n.halflings.screenshot i:before {\n  content: \"\\e087\";\n}\n.halflings.remove-circle i:before {\n  content: \"\\e088\";\n}\n.halflings.ok-circle i:before {\n  content: \"\\e089\";\n}\n.halflings.ban-circle i:before {\n  content: \"\\e090\";\n}\n.halflings.arrow-left i:before {\n  content: \"\\e091\";\n}\n.halflings.arrow-right i:before {\n  content: \"\\e092\";\n}\n.halflings.arrow-up i:before {\n  content: \"\\e093\";\n}\n.halflings.arrow-down i:before {\n  content: \"\\e094\";\n}\n.halflings.share-alt i:before {\n  content: \"\\e095\";\n}\n.halflings.resize-full i:before {\n  content: \"\\e096\";\n}\n.halflings.resize-small i:before {\n  content: \"\\e097\";\n}\n.halflings.plus i:before {\n  content: \"\\002b\";\n}\n.halflings.minus i:before {\n  content: \"\\2212\";\n}\n.halflings.asterisk i:before {\n  content: \"\\002a\";\n}\n.halflings.exclamation-sign i:before {\n  content: \"\\e101\";\n}\n.halflings.gift i:before {\n  content: \"\\e102\";\n}\n.halflings.leaf i:before {\n  content: \"\\e103\";\n}\n.halflings.fire i:before {\n  content: \"\\e104\";\n}\n.halflings.eye-open i:before {\n  content: \"\\e105\";\n}\n.halflings.eye-close i:before {\n  content: \"\\e106\";\n}\n.halflings.warning-sign i:before {\n  content: \"\\e107\";\n}\n.halflings.plane i:before {\n  content: \"\\e108\";\n}\n.halflings.calendar i:before {\n  content: \"\\e109\";\n}\n.halflings.random i:before {\n  content: \"\\e110\";\n}\n.halflings.comments i:before {\n  content: \"\\e111\";\n}\n.halflings.magnet i:before {\n  content: \"\\e113\";\n}\n.halflings.chevron-up i:before {\n  content: \"\\e113\";\n}\n.halflings.chevron-down i:before {\n  content: \"\\e114\";\n}\n.halflings.retweet i:before {\n  content: \"\\e115\";\n}\n.halflings.shopping-cart i:before {\n  content: \"\\e116\";\n}\n.halflings.folder-close i:before {\n  content: \"\\e117\";\n}\n.halflings.folder-open i:before {\n  content: \"\\e118\";\n}\n.halflings.resize-vertical i:before {\n  content: \"\\e119\";\n}\n.halflings.resize-horizontal i:before {\n  content: \"\\e120\";\n}\n.halflings.hdd i:before {\n  content: \"\\e121\";\n}\n.halflings.bullhorn i:before {\n  content: \"\\e122\";\n}\n.halflings.bell i:before {\n  content: \"\\e123\";\n}\n.halflings.certificate i:before {\n  content: \"\\e124\";\n}\n.halflings.thumbs-up i:before {\n  content: \"\\e125\";\n}\n.halflings.thumbs-down i:before {\n  content: \"\\e126\";\n}\n.halflings.hand-right i:before {\n  content: \"\\e127\";\n}\n.halflings.hand-left i:before {\n  content: \"\\e128\";\n}\n.halflings.hand-top i:before {\n  content: \"\\e129\";\n}\n.halflings.hand-down i:before {\n  content: \"\\e130\";\n}\n.halflings.circle-arrow-right i:before {\n  content: \"\\e131\";\n}\n.halflings.circle-arrow-left i:before {\n  content: \"\\e132\";\n}\n.halflings.circle-arrow-top i:before {\n  content: \"\\e133\";\n}\n.halflings.circle-arrow-down i:before {\n  content: \"\\e134\";\n}\n.halflings.globe i:before {\n  content: \"\\e135\";\n}\n.halflings.wrench i:before {\n  content: \"\\e136\";\n}\n.halflings.tasks i:before {\n  content: \"\\e137\";\n}\n.halflings.filter i:before {\n  content: \"\\e138\";\n}\n.halflings.briefcase i:before {\n  content: \"\\e139\";\n}\n.halflings.fullscreen i:before {\n  content: \"\\e140\";\n}\n.halflings.dashboard i:before {\n  content: \"\\e141\";\n}\n.halflings.paperclip i:before {\n  content: \"\\e142\";\n}\n.halflings.heart-empty i:before {\n  content: \"\\e143\";\n}\n.halflings.link i:before {\n  content: \"\\e144\";\n}\n.halflings.phone i:before {\n  content: \"\\e145\";\n}\n.halflings.pushpin i:before {\n  content: \"\\e146\";\n}\n.halflings.euro i:before {\n  content: \"\\20ac\";\n}\n.halflings.usd i:before {\n  content: \"\\e148\";\n}\n.halflings.gbp i:before {\n  content: \"\\e149\";\n}\n.halflings.sort i:before {\n  content: \"\\e150\";\n}\n.halflings.sort-by-alphabet i:before {\n  content: \"\\e151\";\n}\n.halflings.sort-by-alphabet-alt i:before {\n  content: \"\\e152\";\n}\n.halflings.sort-by-order i:before {\n  content: \"\\e153\";\n}\n.halflings.sort-by-order-alt i:before {\n  content: \"\\e154\";\n}\n.halflings.sort-by-attributes i:before {\n  content: \"\\e155\";\n}\n.halflings.sort-by-attributes-alt i:before {\n  content: \"\\e156\";\n}\n.halflings.unchecked i:before {\n  content: \"\\e157\";\n}\n.halflings.expand i:before {\n  content: \"\\e158\";\n}\n.halflings.collapse i:before {\n  content: \"\\e159\";\n}\n.halflings.collapse-top i:before {\n  content: \"\\e160\";\n}\n.halflings-icon {\n  display: inline-block;\n  width: 14px;\n  height: 14px;\n  line-height: 14px;\n  vertical-align: text-top;\n  background-image: url(assets/glyphicons_halflings.svg);\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  vertical-align: top;\n  *display: inline;\n  *zoom: 1;\n  *margin-right: .3em;\n}\n.no-inlinesvg .halflings-icon {\n  background-image: url(assets/glyphicons_halflings.png);\n}\n.halflings-icon.white {\n  background-image: url(assets/glyphicons_halflings-white.svg);\n}\n.no-inlinesvg .halflings-icon.white {\n  background-image: url(assets/glyphicons_halflings-white.png);\n}\n.halflings-icon.glass {\n  background-position: 0 0;\n}\n.halflings-icon.music {\n  background-position: -24px 0;\n}\n.halflings-icon.search {\n  background-position: -48px 0;\n}\n.halflings-icon.envelope {\n  background-position: -72px 0;\n}\n.halflings-icon.heart {\n  background-position: -96px 0;\n}\n.halflings-icon.star {\n  background-position: -120px 0;\n}\n.halflings-icon.star-empty {\n  background-position: -144px 0;\n}\n.halflings-icon.user {\n  background-position: -168px 0;\n}\n.halflings-icon.film {\n  background-position: -192px 0;\n}\n.halflings-icon.th-large {\n  background-position: -216px 0;\n}\n.halflings-icon.th {\n  background-position: -240px 0;\n}\n.halflings-icon.th-list {\n  background-position: -264px 0;\n}\n.halflings-icon.ok {\n  background-position: -288px 0;\n}\n.halflings-icon.remove {\n  background-position: -312px 0;\n}\n.halflings-icon.zoom-in {\n  background-position: -336px 0;\n}\n.halflings-icon.zoom-out {\n  background-position: -360px 0;\n}\n.halflings-icon.off {\n  background-position: -384px 0;\n}\n.halflings-icon.signal {\n  background-position: -408px 0;\n}\n.halflings-icon.cog {\n  background-position: -432px 0;\n}\n.halflings-icon.trash {\n  background-position: -456px 0;\n}\n.halflings-icon.home {\n  background-position: 0 -24px;\n}\n.halflings-icon.file {\n  background-position: -24px -24px;\n}\n.halflings-icon.time {\n  background-position: -48px -24px;\n}\n.halflings-icon.road {\n  background-position: -72px -24px;\n}\n.halflings-icon.download-alt {\n  background-position: -96px -24px;\n}\n.halflings-icon.download {\n  background-position: -120px -24px;\n}\n.halflings-icon.upload {\n  background-position: -144px -24px;\n}\n.halflings-icon.inbox {\n  background-position: -168px -24px;\n}\n.halflings-icon.play-circle {\n  background-position: -192px -24px;\n}\n.halflings-icon.repeat {\n  background-position: -216px -24px;\n}\n.halflings-icon.refresh {\n  background-position: -240px -24px;\n}\n.halflings-icon.list-alt {\n  background-position: -264px -24px;\n}\n.halflings-icon.lock {\n  background-position: -287px -24px;\n}\n.halflings-icon.flag {\n  background-position: -312px -24px;\n}\n.halflings-icon.headphones {\n  background-position: -336px -24px;\n}\n.halflings-icon.volume-off {\n  background-position: -360px -24px;\n}\n.halflings-icon.volume-down {\n  background-position: -384px -24px;\n}\n.halflings-icon.volume-up {\n  background-position: -408px -24px;\n}\n.halflings-icon.qrcode {\n  background-position: -432px -24px;\n}\n.halflings-icon.barcode {\n  background-position: -456px -24px;\n}\n.halflings-icon.tag {\n  background-position: 0 -48px;\n}\n.halflings-icon.tags {\n  background-position: -25px -48px;\n}\n.halflings-icon.book {\n  background-position: -48px -48px;\n}\n.halflings-icon.bookmark {\n  background-position: -72px -48px;\n}\n.halflings-icon.print {\n  background-position: -96px -48px;\n}\n.halflings-icon.camera {\n  background-position: -120px -48px;\n}\n.halflings-icon.font {\n  background-position: -144px -48px;\n}\n.halflings-icon.bold {\n  background-position: -167px -48px;\n}\n.halflings-icon.italic {\n  background-position: -192px -48px;\n}\n.halflings-icon.text-height {\n  background-position: -216px -48px;\n}\n.halflings-icon.text-width {\n  background-position: -240px -48px;\n}\n.halflings-icon.align-left {\n  background-position: -264px -48px;\n}\n.halflings-icon.align-center {\n  background-position: -288px -48px;\n}\n.halflings-icon.align-right {\n  background-position: -312px -48px;\n}\n.halflings-icon.align-justify {\n  background-position: -336px -48px;\n}\n.halflings-icon.list {\n  background-position: -360px -48px;\n}\n.halflings-icon.indent-left {\n  background-position: -384px -48px;\n}\n.halflings-icon.indent-right {\n  background-position: -408px -48px;\n}\n.halflings-icon.facetime-video {\n  background-position: -432px -48px;\n}\n.halflings-icon.picture {\n  background-position: -456px -48px;\n}\n.halflings-icon.pencil {\n  background-position: 0 -72px;\n}\n.halflings-icon.map-marker {\n  background-position: -24px -72px;\n}\n.halflings-icon.adjust {\n  background-position: -48px -72px;\n}\n.halflings-icon.tint {\n  background-position: -72px -72px;\n}\n.halflings-icon.edit {\n  background-position: -96px -72px;\n}\n.halflings-icon.share {\n  background-position: -120px -72px;\n}\n.halflings-icon.check {\n  background-position: -144px -72px;\n}\n.halflings-icon.move {\n  background-position: -168px -72px;\n}\n.halflings-icon.step-backward {\n  background-position: -192px -72px;\n}\n.halflings-icon.fast-backward {\n  background-position: -216px -72px;\n}\n.halflings-icon.backward {\n  background-position: -240px -72px;\n}\n.halflings-icon.play {\n  background-position: -264px -72px;\n}\n.halflings-icon.pause {\n  background-position: -288px -72px;\n}\n.halflings-icon.stop {\n  background-position: -312px -72px;\n}\n.halflings-icon.forward {\n  background-position: -336px -72px;\n}\n.halflings-icon.fast-forward {\n  background-position: -360px -72px;\n}\n.halflings-icon.step-forward {\n  background-position: -384px -72px;\n}\n.halflings-icon.eject {\n  background-position: -408px -72px;\n}\n.halflings-icon.chevron-left {\n  background-position: -432px -72px;\n}\n.halflings-icon.chevron-right {\n  background-position: -456px -72px;\n}\n.halflings-icon.plus-sign {\n  background-position: 0 -96px;\n}\n.halflings-icon.minus-sign {\n  background-position: -24px -96px;\n}\n.halflings-icon.remove-sign {\n  background-position: -48px -96px;\n}\n.halflings-icon.ok-sign {\n  background-position: -72px -96px;\n}\n.halflings-icon.question-sign {\n  background-position: -96px -96px;\n}\n.halflings-icon.info-sign {\n  background-position: -120px -96px;\n}\n.halflings-icon.screenshot {\n  background-position: -144px -96px;\n}\n.halflings-icon.remove-circle {\n  background-position: -168px -96px;\n}\n.halflings-icon.ok-circle {\n  background-position: -192px -96px;\n}\n.halflings-icon.ban-circle {\n  background-position: -216px -96px;\n}\n.halflings-icon.arrow-left {\n  background-position: -240px -96px;\n}\n.halflings-icon.arrow-right {\n  background-position: -264px -96px;\n}\n.halflings-icon.arrow-up {\n  background-position: -289px -96px;\n}\n.halflings-icon.arrow-down {\n  background-position: -312px -96px;\n}\n.halflings-icon.share-alt {\n  background-position: -336px -96px;\n}\n.halflings-icon.resize-full {\n  background-position: -360px -96px;\n}\n.halflings-icon.resize-small {\n  background-position: -384px -96px;\n}\n.halflings-icon.plus {\n  background-position: -408px -96px;\n}\n.halflings-icon.minus {\n  background-position: -433px -96px;\n}\n.halflings-icon.asterisk {\n  background-position: -456px -96px;\n}\n.halflings-icon.exclamation-sign {\n  background-position: 0 -120px;\n}\n.halflings-icon.gift {\n  background-position: -24px -120px;\n}\n.halflings-icon.leaf {\n  background-position: -48px -120px;\n}\n.halflings-icon.fire {\n  background-position: -72px -120px;\n}\n.halflings-icon.eye-open {\n  background-position: -96px -120px;\n}\n.halflings-icon.eye-close {\n  background-position: -120px -120px;\n}\n.halflings-icon.warning-sign {\n  background-position: -144px -120px;\n}\n.halflings-icon.plane {\n  background-position: -168px -120px;\n}\n.halflings-icon.calendar {\n  background-position: -192px -120px;\n}\n.halflings-icon.random {\n  background-position: -216px -120px;\n}\n.halflings-icon.comments {\n  background-position: -240px -120px;\n}\n.halflings-icon.magnet {\n  background-position: -264px -120px;\n}\n.halflings-icon.chevron-up {\n  background-position: -288px -120px;\n}\n.halflings-icon.chevron-down {\n  background-position: -313px -119px;\n}\n.halflings-icon.retweet {\n  background-position: -336px -120px;\n}\n.halflings-icon.shopping-cart {\n  background-position: -360px -120px;\n}\n.halflings-icon.folder-close {\n  background-position: -384px -120px;\n}\n.halflings-icon.folder-open {\n  background-position: -408px -120px;\n}\n.halflings-icon.resize-vertical {\n  background-position: -432px -119px;\n}\n.halflings-icon.resize-horizontal {\n  background-position: -456px -118px;\n}\n.halflings-icon.hdd {\n  background-position: 0px -144px;\n}\n.halflings-icon.bullhorn {\n  background-position: -24px -144px;\n}\n.halflings-icon.bell {\n  background-position: -48px -144px;\n}\n.halflings-icon.certificate {\n  background-position: -72px -144px;\n}\n.halflings-icon.thumbs-up {\n  background-position: -96px -144px;\n}\n.halflings-icon.thumbs-down {\n  background-position: -120px -144px;\n}\n.halflings-icon.hand-right {\n  background-position: -144px -144px;\n}\n.halflings-icon.hand-left {\n  background-position: -168px -144px;\n}\n.halflings-icon.hand-top {\n  background-position: -192px -144px;\n}\n.halflings-icon.hand-down {\n  background-position: -216px -144px;\n}\n.halflings-icon.circle-arrow-right {\n  background-position: -240px -144px;\n}\n.halflings-icon.circle-arrow-left {\n  background-position: -264px -144px;\n}\n.halflings-icon.circle-arrow-top {\n  background-position: -288px -144px;\n}\n.halflings-icon.circle-arrow-down {\n  background-position: -313px -144px;\n}\n.halflings-icon.globe {\n  background-position: -336px -144px;\n}\n.halflings-icon.wrench {\n  background-position: -360px -144px;\n}\n.halflings-icon.tasks {\n  background-position: -384px -144px;\n}\n.halflings-icon.filter {\n  background-position: -408px -144px;\n}\n.halflings-icon.briefcase {\n  background-position: -432px -144px;\n}\n.halflings-icon.fullscreen {\n  background-position: -456px -144px;\n}\n.halflings-icon.dashboard {\n  background-position: 0px -168px;\n}\n.halflings-icon.paperclip {\n  background-position: -24px -168px;\n}\n.halflings-icon.heart-empty {\n  background-position: -48px -168px;\n}\n.halflings-icon.link {\n  background-position: -72px -168px;\n}\n.halflings-icon.phone {\n  background-position: -96px -168px;\n}\n.halflings-icon.pushpin {\n  background-position: -120px -168px;\n}\n.halflings-icon.euro {\n  background-position: -144px -168px;\n}\n.halflings-icon.usd {\n  background-position: -168px -168px;\n}\n.halflings-icon.gbp {\n  background-position: -192px -168px;\n}\n.halflings-icon.sort {\n  background-position: -216px -168px;\n}\n.halflings-icon.sort-by-alphabet {\n  background-position: -240px -168px;\n}\n.halflings-icon.sort-by-alphabet-alt {\n  background-position: -264px -168px;\n}\n.halflings-icon.sort-by-order {\n  background-position: -288px -168px;\n}\n.halflings-icon.sort-by-order-alt {\n  background-position: -313px -168px;\n}\n.halflings-icon.sort-by-attributes {\n  background-position: -336px -168px;\n}\n.halflings-icon.sort-by-attributes-alt {\n  background-position: -360px -168px;\n}\n.halflings-icon.unchecked {\n  background-position: -384px -168px;\n}\n.halflings-icon.expand {\n  background-position: -408px -168px;\n}\n.halflings-icon.collapse {\n  background-position: -432px -168px;\n}\n.halflings-icon.collapse-top {\n  background-position: -456px -168px;\n}\n",
+			"file": "app/assets/stylesheets/halflings.css",
+			"file_size": 20673,
+			"file_write_time": 130171580840000000,
+			"settings":
+			{
+				"buffer_size": 20655,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/***\nInbox Page\n***/\n.inbox {\n  margin-bottom: 20px;\n}\n\n.inbox .inbox {\n  margin-bottom: 0px;\n}\n\n.inbox .tab-content {\n  overflow: inherit;\n}\n\n.inbox .inbox-loading {\n  display: none;\n  font-size: 22px;\n  font-weight: 300;\n}\n\n/*Imbox Menu*/\n.inbox .inbox-nav {\n  list-style: none;\n  margin-left: 0 !important;\n}\n\n.inbox .inbox-nav li {\n  position: relative;\n}\n\n.inbox .inbox-nav li a {\n  color: #4d82a3;\n  display: block;\n  font-size: 15px;\n  border-left: none;\n  text-align: left !important;\n  padding: 8px 14px;\n  margin-bottom: 1px;\n  background: #f4f9fd;\n}\n\n.inbox .inbox-nav li.active a,\n.inbox .inbox-nav li.active:hover a {\n  color: #fff;\n  border-left: none;\n  background: #169ef4 !important;\n  text-decoration: none;\n}\n\n.inbox .inbox-nav li.active b {\n  top: 0;\n  right: -4px;\n  width: 8px;\n  height: 35px;\n  position: absolute;\n  display: inline-block;\n  background: url(assets/inbox-nav-arrow-blue.png) no-repeat;\n}\n\n.inbox .inbox-nav li:hover a {\n  color: #4d82a3;\n  background: #eef4f7 !important;\n  text-decoration: none;\n}\n\n.inbox .inbox-nav li.compose-btn a {\n  color: #fff;\n  text-shadow: none;\n  text-align: center;\n  margin-bottom: 18px;\n  background: #35aa47;\n}\n\n.inbox .inbox-nav li.compose-btn i,\n.inbox .inbox-nav li.compose-btn:hover i {\n  top: 1px;\n  color: #fff;\n  font-size: 15px;\n  position: relative;\n  background: none !important;\n}\n\n.inbox .inbox-nav li.compose-btn a:hover {\n  background-color: #1d943b !important;\n}\n\n/*Inbox Content*/\n.inbox .inbox-header {\n  overflow: hidden;\n}\n\n.inbox .inbox-header h1 {\n  margin: 0;\n  color: #666;\n  margin-bottom: 10px;\n}\n\n.inbox tr {\n  color: #777;\n  font-size: 13px;\n}\n\n.inbox tr label {\n  display: inline-block;\n  margin-bottom: 0;\n}\n\n.inbox tr.unread td{\n  font-weight: 600;\n}\n\n.inbox td i.icon-paper-clip {\n  top: 2px;\n  color: #d8e0e5;\n  font-size: 17px;\n  position: relative;\n}\n\n.inbox tr i.icon-star,\n.inbox tr i.icon-trash {\n  cursor: pointer;  \n}\n\n.inbox tr i.icon-star {\n  color: #eceef0;\n}\n\n.inbox tr i.icon-star:hover {\n  color: #fd7b12;\n}\n\n.inbox tr i.inbox-started {\n  color: #fd7b12;  \n}\n\n.inbox .table th, \n.inbox .table td {\n  border: none;\n}\n\n.inbox .table th {  \n  background: #eef4f7;\n  border-bottom: solid 5px #fff;\n}\n\n.inbox th.text-right {\n  text-align: right;\n}\n\n.inbox th label.inbox-select-all {\n  color: #828f97;\n  font-size: 13px;\n  padding: 1px 4px 0;\n}\n\n.inbox ul.inbox-nav {\n  margin-bottom: 0;\n}\n\n.inbox ul.inbox-nav li {\n  padding: 0;\n}\n\n.inbox ul.inbox-nav li span {\n  color: #828f97;\n  font-size: 12px;\n  margin-right: 10px;\n}\n\n.inbox ul.inbox-nav i {\n  color: #fff;\n  padding: 1px 0;\n  font-size: 15px;\n  cursor: pointer; \n  background: #d0dde4 !important;\n}\n\n.inbox ul.inbox-nav i:hover {\n  background: #169ef4 !important;\n}\n\n.inbox td.text-right {\n  width: 100px;\n  text-align: right;\n}\n\n.inbox td.inbox-small-cells {\n  width: 10px;\n}\n\n.inbox .table-hover tbody tr:hover>td, \n.inbox .table-hover tbody tr:hover>th, \n.inbox .table-striped tbody>tr:nth-child(odd)>td, \n.inbox .table-striped tbody>tr:nth-child(odd)>th {\n  background: #f8fbfd;  \n  cursor: pointer;\n}\n\n.inbox .table-hover tbody tr:hover>td, \n.inbox .table-hover tbody tr:hover>th {\n  background: #eef4f7;\n}\n\n/*Inbox Drafts*/\n.inbox .inbox-drafts {\n  padding: 8px 0;\n  text-align: center;\n  border-top: solid 1px #eee;\n  border-bottom: solid 1px #eee;\n}\n\n/*Inbox View*/\n.inbox-view-header {\n  margin-bottom: 20px;\n}\n\n.inbox-view-header h1 {\n  color: #666;\n  font-size: 22px;\n  line-height: 24px;\n  margin-bottom: 0 !important;\n}\n\n.inbox-view-header h1 a {\n  top: -2px;\n  color: #fff;\n  cursor: pointer;\n  font-size: 13px;\n  padding: 2px 7px;\n  line-height: 16px;\n  position: relative;\n  background: #b0bcc4;\n  display: inline-block;\n}\n\n.inbox-view-header h1 a:hover {\n  background: #aab5bc;\n  text-decoration: none;\n}\n\n.inbox-view-header i.icon-print {\n  color: #94a4ab;\n  cursor: pointer;\n  font-size: 14px;\n  display: inline-block;\n  padding: 6px 8px !important;\n  background: #edf1f4 !important;\n}\n\n.inbox-view-header i.icon-print:hover {\n  background: #e7ebef !important;\n}\n\n.inbox-view-info {\n  color: #666;  \n  padding: 5px 0;\n  margin-bottom: 10px;\n  border-top: solid 1px #eee;\n  border-bottom: solid 1px #eee;\n}\n\n.inbox-view-info strong {\n  color: #666;\n  margin: 0 10px 0 5px;\n}\n\n.inbox-view-info .inbox-info-btn {\n  text-align: right;\n}\n\n.inbox-view-info .inbox-info-btn ul {\n  text-align: left;\n}\n\n.inbox-view-info button {\n  top: 2px;\n  color: #94a4ab;\n  font-size: 13px;\n  margin-left: 4px; \n  padding: 3px 10px;\n  position: relative;\n  background: #edf1f4;\n}\n\n.inbox-view-info button:hover {\n  color: #94a4ab;\n  background: #e7ebef;\n}\n\n.inbox-view {\n  color: #666;\n  padding: 15px 0 0;\n}\n\n.inbox-view a {\n  color: #169ce9;\n}\n\n.inbox-attached {\n  line-height: 16px;\n}\n\n.inbox-attached a {\n  margin: 0 2px;\n}\n\n.inbox-attached img {\n  height: auto;\n  max-width: 250px;\n  margin-bottom: 5px;\n}\n\n.inbox-attached span {\n  margin-right: 3px;\n}\n\n.inbox-attached strong {\n  color: #555;\n  display: block;\n  font-size: 13px;\n}\n\n.inbox-attached .margin-bottom-25 {\n  margin-bottom: 25px;\n}\n\n.inbox-attached .margin-bottom-15 {\n  margin-bottom: 15px;\n}\n\n\n/*Inbox Compose*/\n.inbox-compose {\n  margin-top: 1px;\n  border: solid 1px #eee;\n}\n\n.inbox-compose-btn {\n  padding: 8px 4px;\n  background: #f0f6fa;\n}\n\n.inbox-compose-attachment {\n  padding: 8px 8px;\n}\n\n.inbox-compose-attachment .btn {\n  padding: 4px 10px;\n}\n\n.inbox-compose-btn button {\n  color: #fff;\n  font-size: 14px;\n  margin-left: 4px;\n  padding: 4px 10px;\n  background: #c0cfdd;\n}\n\n.inbox-compose-btn button:hover {\n  color: #fff;\n  background: #4d90fe;\n}\n\n.inbox-compose-btn button i {\n  margin-right: 3px;\n}\n\n.inbox-compose .inbox-control-group {\n  margin-bottom: 0;\n  position: relative;\n  border-bottom: solid 1px #eee;\n}\n\n.inbox-compose .controls {\n  margin-left: 85px;\n}\n\n.inbox-compose .inbox-control-group > label {\n  width: 80px;\n  float: left;\n  color: #979797;\n  text-align: right;\n}\n\n.inbox-compose .controls > input {\n  border: none !important;\n}\n.inbox-compose .controls-to {\n  padding-right: 55px;\n}\n\n.inbox-compose .controls-cc {\n  padding-right: 15px;\n}\n\n.inbox-compose .controls-bcc {\n  padding-right: 15px;\n}\n\n.inbox-compose .tag {\n  font-size: 12px;\n  font-weight: 300 !important;\n  margin-top: 6px;\n  margin-left: 5px;\n  color: #333;\n  text-shadow: none !important;\n  background-color: #eee;\n  display: inline-block !important;\n  padding: 3px !important;\n}\n\n.inbox-compose .tag .close {\n  margin-top: -2px;\n  display: inline-block !important;\n  float: none !important;\n\n}\n\n.inbox-compose .tags {\n  border: none !important;\n  font-size: 13px;\n  padding: 0px;\n  margin-bottom: 0px;\n  margin-right: 50px;\n  box-shadow: none !important;\n}\n\n.inbox-compose .tags-hover {\n  border: 1px solid #ddd;\n  border: none !important;\n  box-shadow: none !important;\n  background: none !important;\n}\n\n.inbox-compose .tags input[type=\"text\"],\n.inbox-compose .tags input[type=\"text\"]:focus {\n  display: inline-block !important;\n  border: none !important;\n  font-size: 14px !important;\n  vertical-align: top;  \n  outline: 0;\n  margin: 0;\n  padding: 0;\n  width: auto;\n  -webkit-box-shadow: none;\n  -moz-box-shadow: none;\n  box-shadow: none;\n}\n\n.inbox-compose .inbox-control-group a.close {\n  top: 13px;\n  right: 10px;\n  position: absolute;\n}\n\n.inbox-compose .mail-to .inbox-cc-bcc {\n  display: inline-block;\n  top: 7px;\n  right: 10px;\n  color: #979797;\n  font-size: 14px;\n  cursor: pointer;\n  position: absolute;\n}\n\n.inbox-compose .mail-to .inbox-bcc {\n  margin-left: 5px;\n}\n\n.inbox-compose .mail-to inbox-cc:hover,\n.inbox-compose .mail-to inbox-bcc:hover {\n  color: #777;\n}\n\n.inbox-compose .wysihtml5 {\n  padding: 0px !important;\n  margin: 0px !important;\n  border: 0 !important;\n}\n\n.inbox-compose .wysihtml5-sandbox {\n  padding: 0px !important;\n  margin: 0px !important;\n  display: block !important;\n  border: 0 !important;\n  margin-top: 5px;\n  width: 100% !important;\n  border-left: none;\n  border-right: none;\n  border-color: #eee;\n}\n\n.inbox-compose .wysihtml5-toolbar {  \n  border: 0;\n  border-bottom: 1px solid #eee;\n}\n\n.inbox-compose .wysihtml5-toolbar > li {\n  height: 34px;\n  margin-right: 0;\n  margin-bottom: 0;\n}\n\n.inbox-compose .wysihtml5-toolbar > li > a,\n.inbox-compose .wysihtml5-toolbar > li > div > a {\n  background: #fff;\n}\n\n.inbox-compose .wysihtml5-toolbar .dropdown.open .dropdown-toggle,\nul.wysihtml5-toolbar a.btn.wysihtml5-command-active {\n  background: #eee !important;\n}\n\n@media (max-width: 480px) {\n\n  .inbox-compose .inbox-control-group > label {\n    margin-top: 7px;\n  }\n\n}",
+			"file": "app/assets/stylesheets/inbox.css",
+			"file_size": 9059,
+			"file_write_time": 130171618140000000,
+			"settings":
+			{
+				"buffer_size": 8537,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/*! fancyBox v2.1.3 fancyapps.com | fancyapps.com/fancybox/#license */\n.fancybox-wrap,\n.fancybox-skin,\n.fancybox-outer,\n.fancybox-inner,\n.fancybox-image,\n.fancybox-wrap iframe,\n.fancybox-wrap object,\n.fancybox-nav,\n.fancybox-nav span,\n.fancybox-tmp\n{\n	padding: 0;\n	margin: 0;\n	border: 0;\n	outline: none;\n	vertical-align: top;\n}\n\n.fancybox-wrap {\n	position: absolute;\n	top: 0;\n	left: 0;\n	z-index: 8020;\n}\n\n.fancybox-skin {\n	position: relative;\n	background: #f9f9f9;\n	color: #444;\n	text-shadow: none;\n	-webkit-border-radius: 4px;\n	   -moz-border-radius: 4px;\n	        border-radius: 4px;\n}\n\n.fancybox-opened {\n	z-index: 8030;\n}\n\n.fancybox-opened .fancybox-skin {\n	-webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);\n	   -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);\n	        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);\n}\n\n.fancybox-outer, .fancybox-inner {\n	position: relative;\n}\n\n.fancybox-inner {\n	overflow: hidden;\n}\n\n.fancybox-type-iframe .fancybox-inner {\n	-webkit-overflow-scrolling: touch;\n}\n\n.fancybox-error {\n	color: #444;\n	font: 14px/20px \"Helvetica Neue\",Helvetica,Arial,sans-serif;\n	margin: 0;\n	padding: 15px;\n	white-space: nowrap;\n}\n\n.fancybox-image, .fancybox-iframe {\n	display: block;\n	width: 100%;\n	height: 100%;\n}\n\n.fancybox-image {\n	max-width: 100%;\n	max-height: 100%;\n}\n\n#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {\n	background-image: url('assets/fancybox_sprite.png');\n}\n\n#fancybox-loading {\n	position: fixed;\n	top: 50%;\n	left: 50%;\n	margin-top: -22px;\n	margin-left: -22px;\n	background-position: 0 -108px;\n	opacity: 0.8;\n	cursor: pointer;\n	z-index: 8060;\n}\n\n#fancybox-loading div {\n	width: 44px;\n	height: 44px;\n	background: url('assets/fancybox_loading.gif') center center no-repeat;\n}\n\n.fancybox-close {\n	position: absolute;\n	top: -18px;\n	right: -18px;\n	width: 36px;\n	height: 36px;\n	cursor: pointer;\n	z-index: 8040;\n}\n\n.fancybox-nav {\n	position: absolute;\n	top: 0;\n	width: 40%;\n	height: 100%;\n	cursor: pointer;\n	text-decoration: none;\n	background: transparent url('assets/blank.gif'); /* helps IE */\n	-webkit-tap-highlight-color: rgba(0,0,0,0);\n	z-index: 8040;\n}\n\n.fancybox-prev {\n	left: 0;\n}\n\n.fancybox-next {\n	right: 0;\n}\n\n.fancybox-nav span {\n	position: absolute;\n	top: 50%;\n	width: 36px;\n	height: 34px;\n	margin-top: -18px;\n	cursor: pointer;\n	z-index: 8040;\n	visibility: hidden;\n}\n\n.fancybox-prev span {\n	left: 10px;\n	background-position: 0 -36px;\n}\n\n.fancybox-next span {\n	right: 10px;\n	background-position: 0 -72px;\n}\n\n.fancybox-nav:hover span {\n	visibility: visible;\n}\n\n.fancybox-tmp {\n	position: absolute;\n	top: -99999px;\n	left: -99999px;\n	visibility: hidden;\n	max-width: 99999px;\n	max-height: 99999px;\n	overflow: visible !important;\n}\n\n/* Overlay helper */\n\n.fancybox-lock {\n	overflow: hidden;\n}\n\n.fancybox-overlay {\n	position: absolute;\n	top: 0;\n	left: 0;\n	overflow: hidden;\n	display: none;\n	z-index: 8010;\n	background: url('assets/fancybox_overlay.png');\n}\n\n.fancybox-overlay-fixed {\n	position: fixed;\n	bottom: 0;\n	right: 0;\n}\n\n.fancybox-lock .fancybox-overlay {\n	overflow: auto;\n	overflow-y: scroll;\n}\n\n/* Title helper */\n\n.fancybox-title {\n	visibility: hidden;\n	font: normal 13px/20px \"Helvetica Neue\",Helvetica,Arial,sans-serif;\n	position: relative;\n	text-shadow: none;\n	z-index: 8050;\n}\n\n.fancybox-opened .fancybox-title {\n	visibility: visible;\n}\n\n.fancybox-title-float-wrap {\n	position: absolute;\n	bottom: 0;\n	right: 50%;\n	margin-bottom: -35px;\n	z-index: 8050;\n	text-align: center;\n}\n\n.fancybox-title-float-wrap .child {\n	display: inline-block;\n	margin-right: -100%;\n	padding: 2px 20px;\n	background: transparent; /* Fallback for web browsers that doesn't support RGBa */\n	background: rgba(0, 0, 0, 0.8);\n	-webkit-border-radius: 15px;\n	   -moz-border-radius: 15px;\n	        border-radius: 15px;\n	text-shadow: 0 1px 2px #222;\n	color: #FFF;\n	font-weight: bold;\n	line-height: 24px;\n	white-space: nowrap;\n}\n\n.fancybox-title-outside-wrap {\n	position: relative;\n	margin-top: 10px;\n	color: #fff;\n}\n\n.fancybox-title-inside-wrap {\n	padding-top: 10px;\n}\n\n.fancybox-title-over-wrap {\n	position: absolute;\n	bottom: 0;\n	left: 0;\n	color: #fff;\n	padding: 10px;\n	background: #000;\n	background: rgba(0, 0, 0, .8);\n}",
+			"file": "app/assets/stylesheets/jquery.fancybox.css",
+			"file_size": 4176,
+			"file_write_time": 130171598840000000,
+			"settings":
+			{
+				"buffer_size": 4168,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "@charset \"UTF-8\";\n/*\n * jQuery File Upload UI Plugin CSS 6.10\n * https://github.com/blueimp/jQuery-File-Upload\n *\n * Copyright 2010, Sebastian Tschan\n * https://blueimp.net\n *\n * Licensed under the MIT license:\n * http://www.opensource.org/licenses/MIT\n */\n\n.fileinput-button {\n  position: relative;\n  overflow: hidden;\n  float: left;\n  margin-right: 4px;\n}\n.fileinput-button input {\n  position: absolute;\n  top: 0;\n  right: 0;\n  margin: 0;\n  opacity: 0;\n  filter: alpha(opacity=0);\n  transform: translate(-300px, 0) scale(4);\n  font-size: 23px;\n  direction: ltr;\n  cursor: pointer;\n}\n.fileupload-buttonbar .btn,\n.fileupload-buttonbar .toggle {\n  margin-bottom: 5px;\n}\n.files .progress {\n  width: 200px;\n}\n.progress-animated .bar {\n  background: url(assets/progressbar.gif) !important;\n  filter: none;\n}\n.fileupload-loading {\n  position: absolute;\n  left: 50%;\n  width: 128px;\n  height: 128px;\n  background: url(assets/loading.gif) center no-repeat;\n  display: none;\n}\n.fileupload-processing .fileupload-loading {\n  display: block;\n}\n\n/* Fix for IE 6: */\n* html .fileinput-button {\n  line-height: 24px;\n  margin: 1px -3px 0 0;\n}\n\n/* Fix for IE 7: */\n* + html .fileinput-button {\n  padding: 2px 15px;\n  margin: 1px 0 0 0;\n}\n\n@media (max-width: 767px) {\n  .files .btn span {\n    display: none;\n  }\n  .files .preview * {\n    width: 40px;\n  }\n  .files .name * {\n    width: 80px;\n    display: inline-block;\n    word-wrap: break-word;\n  }\n  .files .progress {\n    width: 20px;\n  }\n  .files .delete {\n    width: 60px;\n  }\n}\n",
+			"file": "app/assets/stylesheets/jquery.fileupload-ui.css",
+			"file_size": 1521,
+			"file_write_time": 130171598840000000,
+			"settings":
+			{
+				"buffer_size": 1517,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/* the norm */\n#gritter-notice-wrapper {\n	position:fixed;\n	top:20px;\n	right:20px;\n	width:301px;\n	z-index:9999;\n}\n#gritter-notice-wrapper.top-left {\n    left: 20px;\n    right: auto;\n}\n#gritter-notice-wrapper.bottom-right {\n    top: auto;\n    left: auto;\n    bottom: 20px;\n    right: 20px;\n}\n#gritter-notice-wrapper.bottom-left {\n    top: auto;\n    right: auto;\n    bottom: 20px;\n    left: 20px;\n}\n.gritter-item-wrapper {\n	position:relative;\n	margin:0 0 10px 0;\n	background:url('assets/ie-spacer.gif'); /* ie7/8 fix */ \n}\n.gritter-top {\n	background:url(assets/gritter.png) no-repeat left -30px;\n	height:10px;\n}\n.hover .gritter-top {\n	background-position:right -30px;\n}\n.gritter-bottom {\n	background:url(assets/gritter.png) no-repeat left bottom;\n	height:8px;\n	margin:0;\n}\n.hover .gritter-bottom {\n	background-position: bottom right;\n}\n.gritter-item {\n	display:block;\n	background:url(assets/gritter.png) no-repeat left -40px;\n	color:#eee;\n	padding:2px 11px 8px 11px;\n	font-size: 11px;\n	font-family:verdana;\n}\n.hover .gritter-item {\n	background-position:right -40px;\n}\n.gritter-item p {\n	padding:0;\n	margin:0;\n	word-wrap:break-word;\n}\n.gritter-close {\n	display:none;\n	position:absolute;\n	top:5px;\n	left:3px;\n	background:url(assets/gritter.png) no-repeat left top;\n	cursor:pointer;\n	width:30px;\n	height:30px;\n}\n.gritter-title {\n	font-size:14px;\n	font-weight:bold;\n	padding:0 0 7px 0;\n	display:block;\n	text-shadow:1px 1px 0 #000; /* Not supported by IE :( */\n}\n.gritter-image {\n	width:48px;\n	height:48px;\n	float:left;\n}\n.gritter-with-image,\n.gritter-without-image {\n	padding:0;\n}\n.gritter-with-image {\n	width:220px;\n	float:right;\n}\n/* for the light (white) version of the gritter notice */\n.gritter-light .gritter-item,\n.gritter-light .gritter-bottom,\n.gritter-light .gritter-top,\n.gritter-light .gritter-close {\n    background-image: url(assets/gritter-light.png);\n    color: #222;\n}\n.gritter-light .gritter-title {\n    text-shadow: none;\n}\n",
+			"file": "app/assets/stylesheets/jquery.gritter.css",
+			"file_size": 1948,
+			"file_write_time": 130171553980000000,
+			"settings":
+			{
+				"buffer_size": 1936,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/***\nLock Page\n***/\nbody {\n	background-color: #ddd;\n	padding: 0;\n	margin: 0;\n}\n\n.page-lock {\n   top: 50%;\n   left: 50%;\n   position: absolute;\n   margin-top: -140px;\n   margin-left: -260px;\n}\n\n.page-lock .page-logo {\n	margin-bottom: 15px;\n}\n\n.page-lock .page-body {	\n   width: 500px;\n   padding: 10px;\n   background: url(assets/bg-white-lock.png) repeat;\n}\n\n.page-lock .page-body:after,\n.page-lock .page-body:before {\n	display: table;\n	content: \"\";\n	line-height: 0;\n}\n\n.page-lock .page-body:after {\n	clear: both;\n}\n\n.page-lock .page-footer {\n   margin-top: 10px;\n   text-align: left !important;\n   font-size: 12px;\n   color: #333;\n}\n\n.page-lock img.page-lock-img {\n	float: left;\n	width: 200px;\n	height: auto;\n}\n\n.page-lock .page-lock-info {\n	float: right;\n	width: 280px;\n}\n\n.page-lock .page-lock-info h1 {\n	margin-top: -5px;\n	font-weight: 300;\n	color: #fff;\n	font-size: 28px;\n	line-height: 32px;\n}\n\n.page-lock .page-lock-info span {\n	color: #eee;\n	display: block;\n	font-size: 14px;\n	margin-top: -5px;\n	margin-bottom: 10px;\n} \n\n.page-lock .page-lock-info span em {\n	color: #333;\n	font-size: 14px;\n	font-style: normal;\n}\n\n.page-lock .page-lock-info form {\n	margin: 28px 0;\n}\n\n.page-lock .page-lock-info input {\n	background: #fff;\n}\n\n.page-lock .relogin {\n	margin-top: 10px;\n}\n\n.page-lock .relogin a {\n	color: #e1e1e1;\n}\n\n/*Responsive*/\n@media (max-width: 480px) {\n	.page-lock {\n	   top:0px;\n	   width: 260px;\n	   margin-top: 20px;\n	   margin-left: -140px;\n	}	\n\n	.page-lock .page-body {	\n		padding: 10px;\n	    text-align: center;	\n		width: 260px;\n	}\n\n	.page-lock img.page-lock-img {\n		float: none !important;\n		display: block;\n		margin: 0 auto;\n		text-align: center;\n		margin-bottom: 15px;\n	}\n	.page-lock .page-lock-info {\n		float: none !important;\n		width: 260px;		\n		margin: 0 auto;\n	}\n	.page-lock .page-lock-info1 form {\n		margin-bottom: 0;\n	}	\n}",
+			"file": "app/assets/stylesheets/lock.css",
+			"file_size": 1972,
+			"file_write_time": 130171615640000000,
+			"settings":
+			{
+				"buffer_size": 1846,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/***\nLogin page\n***/\n\n/* logo page */\n.login {\n  background-color: #666 !important;\n}\n\n.login .logo {\n  width: 247px;\n  margin: 0 auto;   \n  margin-top:60px;\n  padding: 15px;\n  text-align: center;\n}  \n\n\n.login .content {\n  background: url(assets/bg-white-lock.png) repeat;\n  width: 291px;\n  margin: 0 auto; \n  margin-bottom: 0px;\n  padding: 30px;  \n  padding-top: 20px;  \n  padding-bottom: 15px;  \n}\n\n.login .content h3 {\n  color: #eee;\n}\n.login .content h4  {\n  color: #eee;\n}\n\n.login .content p,\n.login .content label {\n  color: #fff;\n}\n\n.login .content .login-form,\n.login .content .forget-form {\n    padding: 0px;\n    margin: 0px;\n}\n\n.login .content .m-wrap {\n  width: 249px;\n  background-color: #fff;\n}\n\n\n.login .content .control-group {\n  margin-bottom: 20px !important;\n}\n\n.login .content .input-icon .m-wrap {  \n  margin: 0px !important;\n}\n\n.login .content .forget-form {\n  display: none;\n}\n\n.login .content .register-form {\n  display: none;\n}\n\n.login .content .form-title {\n  font-weight: 300;\n  margin-bottom: 25px;\n}\n\n.login .content .form-actions {\n  background-color: transparent;\n  clear: both;\n  border: 0px;\n  border-bottom1: 1px solid #999;\n  padding: 0px 30px 25px 30px;\n  margin-left: -30px;\n  margin-right: -30px;\n}\n\n.login .content .forget-form .form-actions {\n  border: 0;\n  margin-bottom: 0;\n  padding-bottom: 20px;\n}  \n\n.login .content .register-form .form-actions {\n  border: 0;\n  margin-bottom: 0;\n  padding-bottom: 0px;\n}\n\n.login .content .form-actions .checkbox {\n  margin-top: 8px;\n  display: inline-block;\n}\n\n.login .content .form-actions .btn {\n  margin-top: 1px;\n}\n\n.login .content .forget-password {\n  margin-top: 25px;\n}\n\n.login .content .create-account {\n  border-top: 1px dotted #eee;\n  padding-top: 10px;\n  margin-top: 15px;\n}\n\n.login .content .create-account a {\n  display: inline-block;\n  margin-top: 5px;\n}\n\n.login .copyright {\n  text-align: center;\n  width: 270px;\n  margin: 0 auto; \n  padding: 10px 10px 0 10px;\n  color: #eee;\n  font-size: 12px;\n}\n\n@media (max-width: 480px) {\n  /***\n  Login page\n  ***/\n  .login .logo {\n    margin-top:10px;\n  }\n\n  .login .content {\n    padding: 30px; \n    width: 222px;\n  }\n\n  .login .content h3 {\n    font-size: 22px;\n  }\n\n  .login .content .m-wrap {\n      width: 180px;\n  }\n\n  .login .checkbox {\n    font-size: 13px;\n  }\n}",
+			"file": "app/assets/stylesheets/login-soft.css",
+			"file_size": 2455,
+			"file_write_time": 130171630480000000,
+			"settings":
+			{
+				"buffer_size": 2301,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/***\nComing Soon Page\n***/\nbody {\n	background-color: #ddd;\n	padding: 0;\n	margin: 0;\n}\n\n.coming-soon-header {\n	padding: 20px;\n	margin-top: 80px;\n}\n\n.coming-soon-content {\n	padding: 20px;\n	margin-top: 10px;\n}\n\n.coming-soon-countdown {\n	padding: 20px;\n}  \n\n.coming-soon-content h1,\n.coming-soon-content p {\n	color: #fff;\n}\n\n.coming-soon-content h1 {\n	font-size: 42px;\n	line-height: 50px;\n	margin-bottom: 15px;	\n	font-weight: 300;\n}\n\n.coming-soon-content p {\n	font-size: 13px;\n}\n\n\n.coming-soon-content input {\n	background: #fff !important;\n}\n\n.coming-soon-footer {\n   text-align: left !important;\n   font-size: 12px;\n   color: #333;\n   padding: 20px 20px 20px 20px;\n}\n\n/*Countdown*/\n#defaultCountdown { \n	width: 100%;\n	margin: 10px 0; \n	overflow: hidden;\n}\n\n#defaultCountdown span.countdown_row {\n	overflow: hidden;\n}\n\n#defaultCountdown span.countdown_row span { \n	font-size: 16px;\n	font-weight: 300;\n	line-height: 20px;\n	margin-right: 2px;\n}\n\n#defaultCountdown span.countdown_row > span {\n	float: left;\n}\n\n#defaultCountdown span.countdown_section {\n	color: #fff;\n	padding: 7px 15px !important;\n	margin-bottom: 2px;\n	font-weight: 300;\n	background: url(assets/bg-white.png) repeat;\n	text-align: center;\n}\n\n#defaultCountdown span.countdown_amount {\n	display: inline-block;\n	font-size: 38px !important;\n	padding: 15px !important;\n	font-weight: 300;\n}\n\n/*Responsive*/\n@media (max-width: 1024px) {\n	#defaultCountdown span.countdown_amount {\n		padding: 10px;\n	}\n}\n\n@media (max-width: 767px) {\n\n	.coming-soon-header,\n	.coming-soon-countdown, \n	.coming-soon-content,\n	.coming-soon-footer {\n		margin-top: 0px;\n		padding: 10px;\n	}  \n}\n\n@media (max-width: 320px) {\n\n	.coming-soon-content .btn-subscribe span {\n		display: none;\n	}\n\n}",
+			"file": "app/assets/stylesheets/coming-soon.css",
+			"file_size": 1832,
+			"file_write_time": 130171602300000000,
+			"settings":
+			{
+				"buffer_size": 1717,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/***\nDefault theme\n***/\n/***\nReset and overrides  \n***/\nbody {\n  background-color: #3d3d3d !important;\n}\n/***\nPage header\n***/\n.header .navbar-inner {\n  filter: none !important;\n  background-image: none !important;\n  background-color: #212121 !important;\n}\n.header .btn-navbar {\n  background-color: #212121 !important;\n}\n.header .nav .dropdown-toggle:hover,\n.header .nav .dropdown.open .dropdown-toggle {\n  background-color: #383838 !important;\n}\n.header .nav li.dropdown .dropdown-toggle i {\n  color: #8a8a8a !important;\n}\n/***\nPage sidebar\n***/\n.page-sidebar {\n  background-color: #3d3d3d;\n}\nul.page-sidebar-menu > li > a {\n  border-top: 1px solid #5c5c5c !important;\n  color: #ffffff !important;\n}\nul.page-sidebar-menu > li:last-child > a {\n  border-bottom: 1px solid transparent !important;\n}\nul.page-sidebar-menu > li a i {\n  color: #969696;\n}\nul.page-sidebar-menu > li.open > a,\nul.page-sidebar-menu > li > a:hover,\nul.page-sidebar-menu > li:hover > a {\n  background: #303030;\n}\nul.page-sidebar-menu > li.active > a {\n  background: #e02222 !important;\n  border-top-color: transparent !important;\n  color: #ffffff;\n}\nul.page-sidebar-menu > li.active > a i {\n  color: #ffffff;\n}\nul.page-sidebar-menu > li > ul.sub-menu > li:first-child > a {\n  border-top: 0px !important;\n}\nul.page-sidebar-menu > li > ul.sub-menu > li.active > a,\nul.page-sidebar-menu > li > ul.sub-menu > li > a:hover {\n  color: #ffffff !important;\n  background: #575757 !important;\n}\nul.page-sidebar-menu > li > ul.sub-menu > li > a:hover {\n  background: #575757 !important;\n}\n/* 3rd level sub menu */\nul.page-sidebar-menu > li > ul.sub-menu li > ul.sub-menu > li.active > a,\nul.page-sidebar-menu > li > ul.sub-menu li > ul.sub-menu > li > a:hover,\nul.page-sidebar-menu > li > ul.sub-menu li.open > a {\n  color: #ffffff !important;\n  background: #575757 !important;\n}\n/* font color for all sub menu links*/\nul.page-sidebar-menu li > ul.sub-menu > li > a {\n  color: #bdbdbd;\n}\n/* menu arrows */\nul.page-sidebar-menu > li > a .arrow:before,\nul.page-sidebar-menu > li > a .arrow.open:before {\n  color: #7d7d7d !important;\n}\nul.page-sidebar-menu > li > ul.sub-menu a .arrow:before,\nul.page-sidebar-menu > li > ul.sub-menu a .arrow.open:before {\n  color: #707070 !important;\n}\nul.page-sidebar-menu > li > a > .arrow.open:before {\n  color: #8a8a8a !important;\n}\nul.page-sidebar-menu > li.active > a .arrow:before,\nul.page-sidebar-menu > li.active > a .arrow.open:before {\n  color: #ffffff !important;\n}\n/* sidebar search */\n.page-sidebar .sidebar-search input {\n  background-color: #242424 !important;\n  color: #7d7d7d;\n}\n.page-sidebar .sidebar-search input::-webkit-input-placeholder {\n  color: #7d7d7d !important;\n}\n.page-sidebar .sidebar-search input:-moz-placeholder {\n  color: #7d7d7d !important;\n}\n.page-sidebar .sidebar-search input:-ms-input-placeholder {\n  color: #7d7d7d !important;\n}\n.page-sidebar .sidebar-search input {\n  background-color: #3d3d3d !important;\n  color: #bfbfbf !important;\n}\n.page-sidebar .sidebar-search .input-box {\n  border-bottom: 1px solid #7d7d7d !important;\n}\n.page-sidebar .sidebar-search .submit {\n  background-image: url(assets/search-icon.png);\n}\n/***\nSidebar toggler\n***/\n.sidebar-toggler {\n  background-image: url(assets/sidebar-toggler.jpg);\n  background-color: #242424;\n}\n/* search box bg color on expanded */\n.page-sidebar-closed .page-sidebar .sidebar-search.open {\n  background-color: #3d3d3d !important;\n}\n.page-sidebar-closed .page-sidebar .sidebar-search.open .remove {\n  background-image: url(\"assets/sidebar-search-close.png\");\n}\n/* sub menu bg color on hover menu item */\n.page-sidebar-closed ul.page-sidebar-menu > li:hover .sub-menu {\n  background-color: #3d3d3d;\n}\n/***\nHorizontal Menu(new in v1.2)\n***/\n/*search*/\n.header .hor-menu .hor-menu-search-form-toggler.hide {\n  background: #000000 url(assets/hor-menu-search-close.png) no-repeat center;\n}\n.header .hor-menu .search-form {\n  background: #000000;\n}\n.header .hor-menu .search-form .btn {\n  color: #d6d6d6;\n  background: #000000 url(assets/search-icon.png) no-repeat center;\n}\n.header .hor-menu .search-form form input {\n  color: #d6d6d6;\n}\n.header .hor-menu .search-form form input::-webkit-input-placeholder {\n  /* WebKit browsers */\n\n  color: #d6d6d6;\n}\n.header .hor-menu .search-form form input:-moz-placeholder {\n  /* Mozilla Firefox 4 to 18 */\n\n  color: #d6d6d6;\n}\n.header .hor-menu .search-form form input::-moz-placeholder {\n  /* Mozilla Firefox 19+ */\n\n  color: #d6d6d6;\n}\n.header .hor-menu .search-form form input:-ms-input-placeholder {\n  /* Internet Explorer 10+ */\n\n  color: #d6d6d6;\n}\n/***\nFooter \n***/\n.footer .footer-inner {\n  color: #999999;\n}\n.footer .footer-tools .go-top {\n  background-color: #4f4f4f;\n}\n.footer .footer-tools .go-top:hover {\n  opacity: 0.7;\n  filter: alpha(opacity=70);\n}\n.footer .footer-tools .go-top i {\n  color: #8a8a8a;\n}\n/***\nFooter Layouts (new in v1.3)\n***/\n/* begin:fixed footer */\n.page-footer-fixed .footer {\n  background-color: #242424;\n}\n.page-footer-fixed .footer .footer-inner {\n  color: #999999;\n}\n.page-footer-fixed .footer .footer-tools .go-top {\n  background-color: #4f4f4f;\n}\n.page-footer-fixed .footer .footer-tools .go-top i {\n  color: #8a8a8a;\n}\n/* end:fixed footer */\n/***\nGritter Notifications \n***/\n.gritter-top {\n  background: url(assets/gritter.png) no-repeat left -30px !important;\n}\n.gritter-bottom {\n  background: url(assets/gritter.png) no-repeat left bottom !important;\n}\n.gritter-item {\n  display: block;\n  background: url(assets/gritter.png) no-repeat left -40px !important;\n}\n.gritter-close {\n  background: url(assets/gritter.png) no-repeat left top !important;\n}\n.gritter-title {\n  text-shadow: none !important;\n  /* Not supported by IE :( */\n\n}\n/* for the light (white) version of the gritter notice */\n.gritter-light .gritter-item,\n.gritter-light .gritter-bottom,\n.gritter-light .gritter-top,\n.gritter-light .gritter-close {\n  background-image: url(assets/gritter-light.png) !important;\n}\n.gritter-item-wrapper a {\n  color: #18a5ed;\n}\n.gritter-item-wrapper a:hover {\n  color: #0b6694;\n}\n/* begin: boxed page */\n@media (min-width: 980px) {\n  .page-boxed {\n    background-color: #2e2e2e !important;\n  }\n  .page-boxed .page-container {\n    background-color: #3d3d3d;\n    border-left: 1px solid #5e5e5e;\n    border-bottom: 1px solid #5e5e5e;\n  }\n  .page-boxed.page-sidebar-fixed .page-container {\n    border-left: 0;\n    border-bottom: 0;\n  }\n  .page-boxed.page-sidebar-fixed .page-sidebar {\n    border-left: 1px solid #5e5e5e;\n  }\n  .page-boxed.page-sidebar-fixed.page-footer-fixed .footer {\n    background-color: #2e2e2e !important;\n  }\n}\n/* end: boxed page */\n/***\nLandscape phone to portrait tablet\n***/\n@media (max-width: 979px) {\n  /***\n    page sidebar\n    ***/\n  .page-sidebar {\n    background-color: #292929 !important;\n  }\n  ul.page-sidebar-menu > li > a {\n    border-top: 1px solid #4a4a4a !important;\n  }\n  ul.page-sidebar-menu > li:last-child > a {\n    border-bottom: 0 !important;\n  }\n  .page-sidebar .sidebar-search input {\n    background-color: #292929 !important;\n  }\n  ul.page-sidebar-menu > li.open > a,\n  ul.page-sidebar-menu > li > a:hover,\n  ul.page-sidebar-menu > li:hover > a {\n    background: #1e1e1e;\n  }\n}\n",
+			"file": "app/assets/stylesheets/default.css",
+			"file_size": 7204,
+			"file_write_time": 130171558300000000,
+			"settings":
+			{
+				"buffer_size": 7184,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/* The MIT License */\n.dropzone,\n.dropzone *,\n.dropzone-previews,\n.dropzone-previews * {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\n.dropzone {\n  position: relative;\n  border: 1px solid rgba(0,0,0,0.08);\n  background: rgba(0,0,0,0.02);\n  padding: 1em;\n}\n.dropzone.dz-clickable {\n  cursor: pointer;\n}\n.dropzone.dz-clickable .dz-message,\n.dropzone.dz-clickable .dz-message span {\n  cursor: pointer;\n}\n.dropzone.dz-clickable * {\n  cursor: default;\n}\n.dropzone .dz-message {\n  opacity: 1;\n  -ms-filter: none;\n  filter: none;\n}\n.dropzone.dz-drag-hover {\n  border-color: rgba(0,0,0,0.15);\n  background: rgba(0,0,0,0.04);\n}\n.dropzone.dz-started .dz-message {\n  display: none;\n}\n.dropzone .dz-preview,\n.dropzone-previews .dz-preview {\n  background: rgba(255,255,255,0.8);\n  position: relative;\n  display: inline-block;\n  margin: 17px;\n  vertical-align: top;\n  border: 1px solid #acacac;\n  padding: 6px 6px 6px 6px;\n}\n.dropzone .dz-preview.dz-file-preview [data-dz-thumbnail],\n.dropzone-previews .dz-preview.dz-file-preview [data-dz-thumbnail] {\n  display: none;\n}\n.dropzone .dz-preview .dz-details,\n.dropzone-previews .dz-preview .dz-details {\n  width: 100px;\n  height: 100px;\n  position: relative;\n  background: #ebebeb;\n  padding: 5px;\n  margin-bottom: 22px;\n}\n.dropzone .dz-preview .dz-details .dz-filename,\n.dropzone-previews .dz-preview .dz-details .dz-filename {\n  overflow: hidden;\n  height: 100%;\n}\n.dropzone .dz-preview .dz-details img,\n.dropzone-previews .dz-preview .dz-details img {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100px;\n  height: 100px;\n}\n.dropzone .dz-preview .dz-details .dz-size,\n.dropzone-previews .dz-preview .dz-details .dz-size {\n  position: absolute;\n  bottom: -28px;\n  left: 3px;\n  height: 28px;\n  line-height: 28px;\n}\n.dropzone .dz-preview.dz-error .dz-error-mark,\n.dropzone-previews .dz-preview.dz-error .dz-error-mark {\n  display: block;\n}\n.dropzone .dz-preview.dz-success .dz-success-mark,\n.dropzone-previews .dz-preview.dz-success .dz-success-mark {\n  display: block;\n}\n.dropzone .dz-preview:hover .dz-details img,\n.dropzone-previews .dz-preview:hover .dz-details img {\n  display: none;\n}\n.dropzone .dz-preview .dz-success-mark,\n.dropzone-previews .dz-preview .dz-success-mark,\n.dropzone .dz-preview .dz-error-mark,\n.dropzone-previews .dz-preview .dz-error-mark {\n  display: none;\n  position: absolute;\n  width: 40px;\n  height: 40px;\n  font-size: 30px;\n  text-align: center;\n  right: -10px;\n  top: -10px;\n}\n.dropzone .dz-preview .dz-success-mark,\n.dropzone-previews .dz-preview .dz-success-mark {\n  color: #8cc657;\n}\n.dropzone .dz-preview .dz-error-mark,\n.dropzone-previews .dz-preview .dz-error-mark {\n  color: #ee162d;\n}\n.dropzone .dz-preview .dz-progress,\n.dropzone-previews .dz-preview .dz-progress {\n  position: absolute;\n  top: 100px;\n  left: 6px;\n  right: 6px;\n  height: 6px;\n  background: #d7d7d7;\n  display: none;\n}\n.dropzone .dz-preview .dz-progress .dz-upload,\n.dropzone-previews .dz-preview .dz-progress .dz-upload {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  width: 0%;\n  background-color: #8cc657;\n}\n.dropzone .dz-preview.dz-processing .dz-progress,\n.dropzone-previews .dz-preview.dz-processing .dz-progress {\n  display: block;\n}\n.dropzone .dz-preview .dz-error-message,\n.dropzone-previews .dz-preview .dz-error-message {\n  display: none;\n  position: absolute;\n  top: -5px;\n  left: -20px;\n  background: rgba(245,245,245,0.8);\n  padding: 8px 10px;\n  color: #800;\n  min-width: 140px;\n  max-width: 500px;\n  z-index: 500;\n}\n.dropzone .dz-preview:hover.dz-error .dz-error-message,\n.dropzone-previews .dz-preview:hover.dz-error .dz-error-message {\n  display: block;\n}\n.dropzone {\n  border: 1px solid rgba(0,0,0,0.03);\n  min-height: 360px;\n  -webkit-border-radius: 3px;\n  border-radius: 3px;\n  background: rgba(0,0,0,0.03);\n  padding: 23px;\n}\n.dropzone .dz-default.dz-message {\n  opacity: 1;\n  -ms-filter: none;\n  filter: none;\n  -webkit-transition: opacity 0.3s ease-in-out;\n  -moz-transition: opacity 0.3s ease-in-out;\n  -o-transition: opacity 0.3s ease-in-out;\n  -ms-transition: opacity 0.3s ease-in-out;\n  transition: opacity 0.3s ease-in-out;\n  background-image: url(\"assets/spritemap.png\");\n  background-repeat: no-repeat;\n  background-position: 0 0;\n  position: absolute;\n  width: 428px;\n  height: 123px;\n  margin-left: -214px;\n  margin-top: -61.5px;\n  top: 50%;\n  left: 50%;\n}\n@media all and (-webkit-min-device-pixel-ratio: 1.5) {\n  .dropzone .dz-default.dz-message {\n    background-image: url(\"assets/spritemap@2x.png\");\n    -webkit-background-size: 428px 406px;\n    -moz-background-size: 428px 406px;\n    background-size: 428px 406px;\n  }\n}\n.dropzone .dz-default.dz-message span {\n  display: none;\n}\n.dropzone.dz-square .dz-default.dz-message {\n  background-position: 0 -123px;\n  width: 268px;\n  margin-left: -134px;\n  height: 174px;\n  margin-top: -87px;\n}\n.dropzone.dz-drag-hover .dz-message {\n  opacity: 0.15;\n  filter: alpha(opacity=15);\n  -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=15)\";\n}\n.dropzone.dz-started .dz-message {\n  display: block;\n  opacity: 0;\n  filter: alpha(opacity=0);\n  -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)\";\n}\n.dropzone .dz-preview,\n.dropzone-previews .dz-preview {\n  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.16);\n  box-shadow: 1px 1px 4px rgba(0,0,0,0.16);\n  font-size: 14px;\n}\n.dropzone .dz-preview.dz-image-preview:hover .dz-details img,\n.dropzone-previews .dz-preview.dz-image-preview:hover .dz-details img {\n  display: block;\n  opacity: 0.1;\n  filter: alpha(opacity=10);\n  -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=10)\";\n}\n.dropzone .dz-preview.dz-success .dz-success-mark,\n.dropzone-previews .dz-preview.dz-success .dz-success-mark {\n  opacity: 1;\n  -ms-filter: none;\n  filter: none;\n}\n.dropzone .dz-preview.dz-error .dz-error-mark,\n.dropzone-previews .dz-preview.dz-error .dz-error-mark {\n  opacity: 1;\n  -ms-filter: none;\n  filter: none;\n}\n.dropzone .dz-preview.dz-error .dz-progress .dz-upload,\n.dropzone-previews .dz-preview.dz-error .dz-progress .dz-upload {\n  background: #ee1e2d;\n}\n.dropzone .dz-preview .dz-error-mark,\n.dropzone-previews .dz-preview .dz-error-mark,\n.dropzone .dz-preview .dz-success-mark,\n.dropzone-previews .dz-preview .dz-success-mark {\n  display: block;\n  opacity: 0;\n  filter: alpha(opacity=0);\n  -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)\";\n  -webkit-transition: opacity 0.4s ease-in-out;\n  -moz-transition: opacity 0.4s ease-in-out;\n  -o-transition: opacity 0.4s ease-in-out;\n  -ms-transition: opacity 0.4s ease-in-out;\n  transition: opacity 0.4s ease-in-out;\n  background-image: url(\"assets/spritemap.png\");\n  background-repeat: no-repeat;\n}\n@media all and (-webkit-min-device-pixel-ratio: 1.5) {\n  .dropzone .dz-preview .dz-error-mark,\n  .dropzone-previews .dz-preview .dz-error-mark,\n  .dropzone .dz-preview .dz-success-mark,\n  .dropzone-previews .dz-preview .dz-success-mark {\n    background-image: url(\"assets/spritemap@2x.png\");\n    -webkit-background-size: 428px 406px;\n    -moz-background-size: 428px 406px;\n    background-size: 428px 406px;\n  }\n}\n.dropzone .dz-preview .dz-error-mark span,\n.dropzone-previews .dz-preview .dz-error-mark span,\n.dropzone .dz-preview .dz-success-mark span,\n.dropzone-previews .dz-preview .dz-success-mark span {\n  display: none;\n}\n.dropzone .dz-preview .dz-error-mark,\n.dropzone-previews .dz-preview .dz-error-mark {\n  background-position: -268px -123px;\n}\n.dropzone .dz-preview .dz-success-mark,\n.dropzone-previews .dz-preview .dz-success-mark {\n  background-position: -268px -163px;\n}\n.dropzone .dz-preview .dz-progress .dz-upload,\n.dropzone-previews .dz-preview .dz-progress .dz-upload {\n  -webkit-animation: loading 0.4s linear infinite;\n  -moz-animation: loading 0.4s linear infinite;\n  -o-animation: loading 0.4s linear infinite;\n  -ms-animation: loading 0.4s linear infinite;\n  animation: loading 0.4s linear infinite;\n  -webkit-transition: width 0.3s ease-in-out;\n  -moz-transition: width 0.3s ease-in-out;\n  -o-transition: width 0.3s ease-in-out;\n  -ms-transition: width 0.3s ease-in-out;\n  transition: width 0.3s ease-in-out;\n  -webkit-border-radius: 2px;\n  border-radius: 2px;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 0%;\n  height: 100%;\n  background-image: url(\"assets/spritemap.png\");\n  background-repeat: repeat-x;\n  background-position: 0px -400px;\n}\n@media all and (-webkit-min-device-pixel-ratio: 1.5) {\n  .dropzone .dz-preview .dz-progress .dz-upload,\n  .dropzone-previews .dz-preview .dz-progress .dz-upload {\n    background-image: url(\"assets/spritemap@2x.png\");\n    -webkit-background-size: 428px 406px;\n    -moz-background-size: 428px 406px;\n    background-size: 428px 406px;\n  }\n}\n.dropzone .dz-preview.dz-success .dz-progress,\n.dropzone-previews .dz-preview.dz-success .dz-progress {\n  display: block;\n  opacity: 0;\n  filter: alpha(opacity=0);\n  -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)\";\n  -webkit-transition: opacity 0.4s ease-in-out;\n  -moz-transition: opacity 0.4s ease-in-out;\n  -o-transition: opacity 0.4s ease-in-out;\n  -ms-transition: opacity 0.4s ease-in-out;\n  transition: opacity 0.4s ease-in-out;\n}\n.dropzone .dz-preview .dz-error-message,\n.dropzone-previews .dz-preview .dz-error-message {\n  display: block;\n  opacity: 0;\n  filter: alpha(opacity=0);\n  -ms-filter: \"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)\";\n  -webkit-transition: opacity 0.3s ease-in-out;\n  -moz-transition: opacity 0.3s ease-in-out;\n  -o-transition: opacity 0.3s ease-in-out;\n  -ms-transition: opacity 0.3s ease-in-out;\n  transition: opacity 0.3s ease-in-out;\n}\n.dropzone .dz-preview:hover.dz-error .dz-error-message,\n.dropzone-previews .dz-preview:hover.dz-error .dz-error-message {\n  opacity: 1;\n  -ms-filter: none;\n  filter: none;\n}\n@-moz-keyframes loading {\n  0% {\n    background-position: 0 -400px;\n  }\n\n  100% {\n    background-position: -7px -400px;\n  }\n}\n@-webkit-keyframes loading {\n  0% {\n    background-position: 0 -400px;\n  }\n\n  100% {\n    background-position: -7px -400px;\n  }\n}\n@-o-keyframes loading {\n  0% {\n    background-position: 0 -400px;\n  }\n\n  100% {\n    background-position: -7px -400px;\n  }\n}\n@-ms-keyframes loading {\n  0% {\n    background-position: 0 -400px;\n  }\n\n  100% {\n    background-position: -7px -400px;\n  }\n}\n@keyframes loading {\n  0% {\n    background-position: 0 -400px;\n  }\n\n  100% {\n    background-position: -7px -400px;\n  }\n}\n",
+			"file": "app/assets/stylesheets/dropzone.css",
+			"file_size": 10432,
+			"file_write_time": 130171600100000000,
+			"settings":
+			{
+				"buffer_size": 10420,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\ndiv.dataTables_length label {\n	float: left;\n	text-align: left;\n}\n\ndiv.dataTables_length select {\n	width: 75px;\n}\n\ndiv.dataTables_filter label {\n	float: right;\n}\n\ndiv.dataTables_info {\n	padding-top: 8px;\n}\n\ndiv.dataTables_paginate {\n	float: right;\n	margin: 0;\n}\n\ntable.table {\n	clear: both;\n	margin-bottom: 6px !important;\n	max-width: none !important;\n}\n\ntable.table thead .sorting,\ntable.table thead .sorting_asc,\ntable.table thead .sorting_desc,\ntable.table thead .sorting_asc_disabled,\ntable.table thead .sorting_desc_disabled {\n	cursor: pointer;\n	*cursor: hand;\n}\n\ntable.table thead .sorting { background: url('assets/sort_both.png') no-repeat center right; }\ntable.table thead .sorting_asc { background: url('assets/sort_asc.png') no-repeat center right; }\ntable.table thead .sorting_desc { background: url('assets/sort_desc.png') no-repeat center right; }\n\ntable.table thead .sorting_asc_disabled { background: url('assets/sort_asc_disabled.png') no-repeat center right; }\ntable.table thead .sorting_desc_disabled { background: url('assets/sort_desc_disabled.png') no-repeat center right; }\n\ntable.dataTable th:active {\n	outline: none;\n}\n\n/* Scrolling */\ndiv.dataTables_scrollHead table {\n	margin-bottom: 0 !important;\n	border-bottom-left-radius: 0;\n	border-bottom-right-radius: 0;\n}\n\ndiv.dataTables_scrollHead table thead tr:last-child th:first-child,\ndiv.dataTables_scrollHead table thead tr:last-child td:first-child {\n	border-bottom-left-radius: 0 !important;\n	border-bottom-right-radius: 0 !important;\n}\n\ndiv.dataTables_scrollBody table {\n	border-top: none;\n	margin-bottom: 0 !important;\n}\n\ndiv.dataTables_scrollBody tbody tr:first-child th,\ndiv.dataTables_scrollBody tbody tr:first-child td {\n	border-top: none;\n}\n\ndiv.dataTables_scrollFoot table {\n	border-top: none;\n}\n\n\n\n\n/*\n * TableTools styles\n */\n.table tbody tr.active td,\n.table tbody tr.active th {\n	background-color: #08C;\n	color: white;\n}\n\n.table tbody tr.active:hover td,\n.table tbody tr.active:hover th {\n	background-color: #0075b0 !important;\n}\n\n.table-striped tbody tr.active:nth-child(odd) td,\n.table-striped tbody tr.active:nth-child(odd) th {\n	background-color: #017ebc;\n}\n\ntable.DTTT_selectable tbody tr {\n	cursor: pointer;\n	*cursor: hand;\n}\n\ndiv.DTTT .btn {\n	color: #333 !important;\n	font-size: 12px;\n}\n\ndiv.DTTT .btn:hover {\n	text-decoration: none !important;\n}\n\n\nul.DTTT_dropdown.dropdown-menu a {\n	color: #333 !important; /* needed only when demo_page.css is included */\n}\n\nul.DTTT_dropdown.dropdown-menu li:hover a {\n	background-color: #0088cc;\n	color: white !important;\n}\n\n/* TableTools information display */\ndiv.DTTT_print_info.modal {\n	height: 150px;\n	margin-top: -75px;\n	text-align: center;\n}\n\ndiv.DTTT_print_info h6 {\n	font-weight: normal;\n	font-size: 28px;\n	line-height: 28px;\n	margin: 1em;\n}\n\ndiv.DTTT_print_info p {\n	font-size: 14px;\n	line-height: 20px;\n}\n\n\n\n/*\n * FixedColumns styles\n */\ndiv.DTFC_LeftHeadWrapper table,\ndiv.DTFC_LeftFootWrapper table,\ntable.DTFC_Cloned tr.even {\n	background-color: white;\n}\n\ndiv.DTFC_LeftHeadWrapper table {\n	margin-bottom: 0 !important;\n	border-top-right-radius: 0 !important;\n	border-bottom-left-radius: 0 !important;\n	border-bottom-right-radius: 0 !important;\n}\n\ndiv.DTFC_LeftHeadWrapper table thead tr:last-child th:first-child,\ndiv.DTFC_LeftHeadWrapper table thead tr:last-child td:first-child {\n	border-bottom-left-radius: 0 !important;\n	border-bottom-right-radius: 0 !important;\n}\n\ndiv.DTFC_LeftBodyWrapper table {\n	border-top: none;\n	margin-bottom: 0 !important;\n}\n\ndiv.DTFC_LeftBodyWrapper tbody tr:first-child th,\ndiv.DTFC_LeftBodyWrapper tbody tr:first-child td {\n	border-top: none;\n}\n\ndiv.DTFC_LeftFootWrapper table {\n	border-top: none;\n}\n",
+			"file": "app/assets/stylesheets/DT_bootstrap.css",
+			"file_size": 3868,
+			"file_write_time": 130171631780000000,
+			"settings":
+			{
+				"buffer_size": 3680,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/font-awesome.css",
+			"settings":
+			{
+				"buffer_size": 27779,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -105,10 +284,105 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/liufei/ROR/patient"
+		"/Users/liufei/ROR/patient",
+		"/Users/liufei/ROR/patient/app",
+		"/Users/liufei/ROR/patient/app/assets",
+		"/Users/liufei/ROR/patient/app/assets/javascripts",
+		"/Users/liufei/ROR/patient/app/assets/stylesheets",
+		"/Users/liufei/ROR/patient/app/controllers",
+		"/Users/liufei/ROR/patient/app/views",
+		"/Users/liufei/ROR/patient/app/views/home",
+		"/Users/liufei/ROR/patient/app/views/layouts",
+		"/Users/liufei/ROR/patient/config"
 	],
 	"file_history":
 	[
+		"/Users/liufei/ROR/patient/app/assets/stylesheets/font-awesome.min.css",
+		"/Users/liufei/ROR/patient/app/assets/stylesheets/colorpicker.css",
+		"/Users/liufei/ROR/patient/app/assets/stylesheets/multi-select-metro.css",
+		"/Users/liufei/ROR/patient/app/assets/stylesheets/profile.css",
+		"/Users/liufei/ROR/patient/app/assets/stylesheets/search.css",
+		"/Users/liufei/ROR/patient/app/assets/stylesheets/select2_metro.css",
+		"/Users/liufei/ROR/patient/app/assets/stylesheets/style-metro.css",
+		"/Users/liufei/ROR/patient/app/assets/stylesheets/style.css",
+		"/Users/liufei/ROR/patient/app/assets/stylesheets/uniform.default.css",
+		"/Users/liufei/ROR/patient/app/assets/stylesheets/bootstrap-tree.css",
+		"/Users/liufei/ROR/patient/app/assets/stylesheets/chosen.css",
+		"/Users/liufei/ROR/patient/app/assets/stylesheets/bootstrap.min.css",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/07110a3d50cf2e40114c540e262c8cbb",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/10328cb5f1c915eef4e2466708a9410a",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/12e81ec3aacb924e7ea211c3440a3b02",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/13fe41fee1fe35b49d145bcc06610705",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/1450c8f5d2b6e201d72fa175586bbd97",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/18cc98678b24c7adf3eba9cd8b0287cb",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/195b0c0ece1db236806e2ec2310f1479",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/1b77abb6bee52fa8d68ee7e81077ff20",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/21ffda50610d962dad20e7c69d7adb2e",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/24c28286dda1b6064aaa9ab51dd1abe3",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/25c7d30ca5ab02f253a706278d371884",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/29967ed4c0b78f022c40f98dd6ebf155",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/2d373d1a39cf301201ddd44fe1803925",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/357970feca3ac29060c1e3861e2c0953",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/374d7489826341abf7436c148604943d",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/378ae42fa633d06f58f9e76b1e0424a4",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/3b670c9fa3a25f962fb8152bcfe0b342",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/3bc444b62afe81fc6f16b4ac8a63d04c",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/3e773e8984a02eb242ac92342b3653ae",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/3fd9412156bcbb7ffb2768b082b02759",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/4666c1fbc8fb1de0fe46806406437ba3",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/48ccee950cbfd3708d4bc1a24c493e94",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/496f8473d1d5109599b865189c6216d0",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/49a885d3e06fe33a5c64f07b6313daeb",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/4d6e5dfee80a447fd4640be5755bf528",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/4ea33e825e6e38bd22dccab488a0255b",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/542c740f339d1e8da9da64cc19145929",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/551fa768f4d5776fab14a3b270c4d064",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/555352f27fae8d78fc8d68b2572bdf6b",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/5730afc0d151dd1e10e88b7b3e6adbc1",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/598b5c2796e2bea02c34549c8f4eaccd",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/615bc5069da99c4d28be81e434712369",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/63b0a666b5b5c3be731db8ff04101b53",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/69b24dd2e7d902197e380e7e344499e1",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/69df01e143382e29baa23c1019faf7e7",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/69e11d7728a975a59328de50035fe25e",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/6b9e24a8aad25948823e1a93c8be731e",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/6fc04d22332177846c74154b1290e7b7",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/70960ba711c6f243724b7d45e957babb",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/7be9086c960bb4384c9d23a52e489f29",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/7e59baa785fa48ff0162057de8ba459d",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/81d0912c28477eb9ebb00dcd932e980a",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/8aa3b46743d2c9c5d6215437c6bd3c7b",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/8d191acdf6ab107ba6640a2f3875e25a",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/8f8936f164170e095c5ca2d0c2ae6127",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/91bce51034fd28879a4f1e2e5fe8b733",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/91dfb1e3477659b982feeacb705e8073",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/96309f3ac34f506fa13086d650f4b84f",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/9804045c261d4f5c5b600168c61d4d53",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/980ae27b5f97d789e31bc162d43daa0d",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/9a2e5d6775b915e7f30978b49f5cd968",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/9d5762dcc2c3d20642515b0beae12cda",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/9fd02d20091838d6411df2d23a5364d5",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/a1138831085f56b75a3e2971d7f23a22",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/a1ee77c4a4b62568050d2641e21479ff",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/a493b7c5f13d63f805d413da51bec4da",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/a7df8ca3082cfbc47da1a28828d6d460",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/b10f14c289e7045b038f0a83705b5d86",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/b25715e194522b4b08210d8674c77af8",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/b7c49fa679c11c461a541ad3ebce2015",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/bb5f5fd155b9cce672c002356628f8db",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/bc6cc4be7e41dfbca27c21a0ae713a92",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/c5b9e4974820336c04e71ad6ccb2e44b",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/d21ae483be0bdef3991970e8d92690d7",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/d2c4be968c68f00a4c94f786806e803d",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/dc3464fc167af65f2f04092dab31329a",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/dea5e7f68ddcb811c2e05acab86b1e7d",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/e1a6e264d94d004659f38f4cab9b982c",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/e5d244badd7f6f4cec985c7f8fd135ca",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/e635bdf927aa3a59d50587ec0873b6e4",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/f054c0a5481f4403df8254948893d85d",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/f33ca5bf0b64f35f0b84a7bdd8d95740",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/f4222fc14bf4f2e60bf4eee6dcd006b3",
+		"/Users/liufei/ROR/patient/tmp/cache/assets/development/sprockets/fcbb6518dccf64e18504d99965f81a32",
 		"/Library/WebServer/Documents/weixinpro/weiwincms/Lib/Action/Wap/WeixinAction.class.php",
 		"/Library/WebServer/Documents/weixinpro/tpl/Wap/default/common/css/1143/cate.css",
 		"/Library/WebServer/Documents/weixinpro/tpl/Wap/default/Card_index_newsalon.html",
@@ -150,29 +424,18 @@
 		"/Users/liufei/Library/Application Support/Sublime Text 3/Packages/User/PHP.sublime-settings",
 		"/Users/liufei/Library/Application Support/Sublime Text 3/Packages/User/Base File.sublime-settings",
 		"/Users/liufei/Library/Application Support/Sublime Text 3/Packages/Terminal/Base File.sublime-settings",
-		"/Library/WebServer/Documents/weixinpro/weiwindata/logs/Cache/Wap/300997136e4d6ae09828c036d21aca40.php",
-		"/Library/WebServer/Documents/weixinpro/weiwindata/logs/Cache/User/301b687f5b452f5129c78c49981401e2.php",
-		"/Library/WebServer/Documents/weixinpro/cms/templates/history/3_20131210214411.html",
-		"/Library/WebServer/Documents/weixinpro/install/sql/data.sql",
-		"/Library/WebServer/Documents/weixinpro/tpl/System/common/js/DD_belatedPNG.js",
-		"/Library/WebServer/Documents/weixinpro/weiwincms/_Core/Extend/Vendor/Excel/PHPExcel/CachedObjectStorage/PHPTemp.php",
-		"/Library/WebServer/Documents/weixinpro/cms/smarty/templates/tpls/v13/product.php-tid=3&pageno=1.htm",
-		"/Library/WebServer/Documents/weixinpro/tpl/static/ueditor/third-party/highcharts/modules/no-data-to-display.js",
-		"/Library/WebServer/Documents/weixinpro/tpl/User/default/Tmpls_index.html",
-		"/Library/WebServer/Documents/weixinpro/cms/manage/model/template_model.class.php",
-		"/Library/WebServer/Documents/weixinpro/tpl/think_exception.tpl",
-		"/Users/liufei/Desktop/<?php",
-		"/Users/liufei/Downloads/emmet-sublime-master/Default (OSX).sublime-keymap"
+		"/Library/WebServer/Documents/weixinpro/weiwindata/logs/Cache/Wap/300997136e4d6ae09828c036d21aca40.php"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			"",
 			"<project>"
 		]
 	},
@@ -181,6 +444,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"../image/",
+			"css",
 			"雪山",
 			"<script type=\"text/javascript\">\n            var myScroll;\n\n            function loaded() {\n                myScroll = new iScroll('wrapper', {\n                    snap: true,\n                    momentum: false,\n                    hScrollbar: false,\n                    onScrollEnd: function () {\n                        document.querySelector('#indicator > li.active').className = '';\n                        document.querySelector('#indicator > li:nth-child(' + (this.currPageX+1) + ')').className = 'active';\n                    }\n                });\n \n            }\n\n            document.addEventListener('DOMContentLoaded', loaded, false);\n        </script>",
 			"            </",
@@ -194,30 +459,1019 @@
 			"user",
 			", "
 		],
-		"highlight": true,
+		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"assets/"
 		],
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
-		"wrap": true
+		"wrap": false
 	},
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1640,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/layouts/application.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1131,
+								1131
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 98.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/home/index.html.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4096,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								54
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1577.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/assets/stylesheets/font-awesome.min.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21918,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 234.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/assets/stylesheets/glyphicons.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 52993,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/assets/stylesheets/halflings.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/assets/stylesheets/inbox.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8537,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/assets/stylesheets/jquery.fancybox.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/assets/stylesheets/jquery.fileupload-ui.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/assets/stylesheets/jquery.gritter.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1936,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/assets/stylesheets/lock.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/assets/stylesheets/login-soft.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 249.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/assets/stylesheets/coming-soon.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1717,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "app/assets/stylesheets/default.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1071.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "app/assets/stylesheets/dropzone.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "app/assets/stylesheets/DT_bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "app/assets/stylesheets/font-awesome.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27779,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 802.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -257,7 +1511,7 @@
 	"project": "patient.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":

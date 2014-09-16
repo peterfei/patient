@@ -1,2 +1,111 @@
-h1 Home#index
-p Find me in app/views/home/index.html.slim
+body.login
+  /! BEGIN LOGO
+  .logo
+    /img alt="" src="media/image/logo-big.png" /
+  /! END LOGO
+  /! BEGIN LOGIN
+  .content
+    /! BEGIN LOGIN FORM
+    form.form-vertical.login-form action="index.html" 
+      h3.form-title Login to your account
+      .alert.alert-error.hide
+        button.close data-dismiss="alert" 
+        span Enter any username and password.
+      .control-group
+        /! ie8, ie9 does not support html5 placeholder, so we just show field title for that
+        label.control-label.visible-ie8.visible-ie9 Username
+        .controls
+          .input-icon.left
+            i.icon-user
+            input.m-wrap.placeholder-no-fix name="username" placeholder="Username" type="text" /
+      .control-group
+        label.control-label.visible-ie8.visible-ie9 Password
+        .controls
+          .input-icon.left
+            i.icon-lock
+            input.m-wrap.placeholder-no-fix name="password" placeholder="Password" type="password" /
+      .form-actions
+        label.checkbox
+          input name="remember" type="checkbox" value="1" /
+          | Remember me
+        button.btn.green.pull-right type="submit" 
+          | Login
+          i.m-icon-swapright.m-icon-white
+      .forget-password
+        h4 Forgot your password ?
+        p
+          | no worries, click
+          a#forget-password href="javascript:;"  here
+          | to reset your password.
+      .create-account
+        p
+          | Don't have an account yet ?&nbsp;
+          a#register-btn href="javascript:;"  Create an account
+    /! END LOGIN FORM
+    /! BEGIN FORGOT PASSWORD FORM
+    form.form-vertical.forget-form action="index.html" 
+      h3 Forget Password ?
+      p Enter your e-mail address below to reset your password.
+      .control-group
+        .controls
+          .input-icon.left
+            i.icon-envelope
+            input.m-wrap.placeholder-no-fix name="email" placeholder="Email" type="text" /
+      .form-actions
+        button#back-btn.btn type="button" 
+          i.m-icon-swapleft
+          | Back
+        button.btn.green.pull-right type="submit" 
+          | Submit
+          i.m-icon-swapright.m-icon-white
+    /! END FORGOT PASSWORD FORM
+    /! BEGIN REGISTRATION FORM
+    form.form-vertical.register-form action="index.html" 
+      h3 Sign Up
+      p Enter your account details below:
+      .control-group
+        label.control-label.visible-ie8.visible-ie9 Username
+        .controls
+          .input-icon.left
+            i.icon-user
+            input.m-wrap.placeholder-no-fix name="username" placeholder="Username" type="text" /
+      .control-group
+        label.control-label.visible-ie8.visible-ie9 Password
+        .controls
+          .input-icon.left
+            i.icon-lock
+            input#register_password.m-wrap.placeholder-no-fix name="password" placeholder="Password" type="password" /
+      .control-group
+        label.control-label.visible-ie8.visible-ie9 Re-type Your Password
+        .controls
+          .input-icon.left
+            i.icon-ok
+            input.m-wrap.placeholder-no-fix name="rpassword" placeholder=("Re-type Your Password") type="password" /
+      .control-group
+        /! ie8, ie9 does not support html5 placeholder, so we just show field title for that
+        label.control-label.visible-ie8.visible-ie9 Email
+        .controls
+          .input-icon.left
+            i.icon-envelope
+            input.m-wrap.placeholder-no-fix name="email" placeholder="Email" type="text" /
+      .control-group
+        .controls
+          label.checkbox
+            input name="tnc" type="checkbox" /
+            | I agree to the
+            a href="#"  Terms of Service
+            | and
+            a href="#"  Privacy Policy
+          #register_tnc_error
+      .form-actions
+        button#register-back-btn.btn type="button" 
+          i.m-icon-swapleft
+          | Back
+        button#register-submit-btn.btn.green.pull-right type="submit" 
+          | Sign Up
+          i.m-icon-swapright.m-icon-white
+    /! END REGISTRATION FORM
+  /! END LOGIN
+  /! BEGIN COPYRIGHT
+  .copyright
+    | 2013 &copy; Metronic. Admin Dashboard Template.
